@@ -14,12 +14,20 @@ body
 
 .title_header
 {
-    font-size: 10px;
+    font-size: 8px;
+    display: flex;
+    flex-direction: column;
 }
+
+.title_header p
+{font-size: 15px;
+    margin-top: 0.2em;
+}
+
 
 header
 
-{background-color: blueviolet;
+{
 height: 300px;
 width: 100%;
 position: relative;
@@ -49,6 +57,16 @@ nav li
     margin: 0 10px 0 20px;
     
 }
+
+.barre_recherche
+{
+   
+    width:400px;
+    height:30px;
+    background-color: limegreen;
+    
+}
+
 
 
 
