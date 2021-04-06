@@ -10,59 +10,62 @@
     <link rel="stylesheet" href="P2_JOURDAIN.css">
     <script src="https://kit.fontawesome.com/4fa80a1b2e.js" crossorigin="anonymous"></script>
     <link href="/chemin-vers-fontawesome/css/all.css" rel="stylesheet">
-</head>
 <body>
-    <!--Header-->
-    <header>
-        
-        <!--menu nav header-->
-        <nav>
-            <ul>
-                <li id="change_color">Herbergements</li>
-                <li>Activités</li>
-                <li id="change_color" >S'inscrire</li>
-            </ul>
-        </nav>
-    
-    <img class="logo-header" src="./logo/Reservia.svg" alt="logo_Header">  
-</header>
-
-<!--Section -->
-<section>
-
-    <div class="title_header">
+    </head>
+        <!--Header-->
+        <header>
+            <!--menu nav header-->
+            <nav>
+                <ul>
+                    <li id="change_color">Herbergements</li>
+                    <li>
+                        <!--add links-->
+                        <a href="#">Activités</a>
+                    </li>
+                    <li id="change_color" >S'inscrire</li>
+                </ul>
+            </nav>
+        <img class="logo-header" src="./logo/Reservia.svg" alt="logo_Header">  
+    </header>
+    <!--Section -->
+    <section>
         <h1>Trouvez votre hebergement pour des vacances de reves</h1>
         <p>en plein centre ville ou en pleine nature</p>
-    </div>
-    
-    <!--barre de recherche Header-->
-    <form class="barre_recherche" method='post' action='....' >
-        <button><i class="fas fa-map-marker-alt"></i></button>
-        <input type='text'  id='recherche' name='recherche' placeholder="Marseille,France">
-        <button>rechercher</button>
-
-    </form>  
-    
-        <ul class="filtre">
-             <li>Filtres</li>
-             <div class="position-button">
-                 <button class="button_section"><div class="cercle"><div id="button_section_color"><i class="fas fa-heart"></div></div></i> Economoique</li></button>
-                 <button class="button_section"><div class="cercle"><div id="button_section_color"><i class="fas fa-heart"></div></div></i> Familial</li></button>
-                 <button class="button_section"><div class="cercle"><div id="button_section_color"><i class="fas fa-heart"></div></div></i> Romantique</li></button>
-                 <button class="button_section"><div class="cercle"><div id="button_section_color"><i class="fas fa-heart"></div></div></i> Animaux autorisés</li></button>
-                </div>
-            
+        <!--barre de recherche Header-->
+        <form class="barre_recherche" method='post' action='....'>
+            <button>
+                <i class="fas fa-map-marker-alt"></i>
+            </button>
+            <input type='text'  id='recherche' name='recherche' placeholder="Marseille,France"> 
+            <button>rechercher</button>
+        </form>  
+        <ul class="display_filtre">
+            <li class="spacing_filter">filtres</li>
+            <li class="spacing_filter">
+                <button class="button_filter">
+                    <i class="icon_filter fas fa-heart"></i>
+                    Economique
+                </button>
+            </li>
+            <li class="spacing_filter">
+                <button class="button_filter">
+                    <i class="icon_filter fas fa-heart"></i>
+                    Familial
+                </button>
+            </li>
+            <li class="spacing_filter">
+                <button class="button_filter">
+                    <i class="icon_filter fas fa-heart"></i>
+                    Romantique
+                </button>
+            </li>
+            <li class="spacing_filter">
+                <button class="button_filter">
+                    <i class="icon_filter fas fa-dog"></i>
+                    Animaux autorisés
+                </button>
+            </li>
         </ul>
-        <div class="position_logo">
-            <div class="cercle2"></div>
-            <div class="logo_information"><i class="fas fa-info"></i>
-            </div>
-            <p> plus de 500 logements sont disponible dans cette ville</p>
-        </div>
-        <div>
-         </div>
-   
-</section>
-    
+    </section>
 </body>
 </html>

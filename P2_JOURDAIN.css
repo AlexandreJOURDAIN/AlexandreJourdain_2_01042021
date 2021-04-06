@@ -1,10 +1,9 @@
 /*header*/
-
+/* --- global style --- */
 body
 {
-        font-family: "Raleway",sans-serif ;
-       margin: O;
-       
+    font-family: "Raleway",sans-serif ;
+    margin: O;    
 }
 h1
 {
@@ -17,40 +16,11 @@ li
     list-style: none;
 }
 
-/*menu nav header*/
-
-.logo header
-
-{}
-
-#change_color
-{color: blue;
- border: 1.5px blue inset;
- border-right: none;
- border-bottom: none;
- border-left: none;
- border-spacing:;
- 
- }
-
-
-
-.title_header
-{
-    display: flex;
-    flex-direction: column;
-}
-
-.title_header p
-{font-size: 15px;
-    margin-top: 0.5px;
-}
-
 header
 {
-height: 50px;
-width: 100%;
-position: relative;
+    height: 50px;
+    width: 100%;
+    position: relative;
 }
 
 nav
@@ -75,108 +45,69 @@ nav li
     
 }
 
-/*section*/
+/* --- menu nav header --- */
+
+#change_color
+{
+    color: blue;
+    border: 1.5px blue inset;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+ }
+
+/* --- section --- */
 
 .barre_recherche
 {
    
-    width:400px;
-    height:30px;   
+    width: 400px;
+    height: 30px;   
 }
 
 section
 {
-    position: ;
     height: 250px;
-    background-color: burlywood;
     text-align: left;
-    }
+}
 
+/* --- filtres --- */
 
-.filtre
+.display_filtre
 {
     display: flex;
-    height: 50px;
-   align-items:center;
-   align-content: flex-end;
-   background-color:darkgoldenrod;
-   text-align:left;
-
+    background-color: chartreuse;
+    align-items: center;
+    padding: 0;
 }
 
 
-.cercle { 
-    height: 30px; 
-    width: 30px; 
-    background-color:#deebff;
-     border-radius: 50%; 
-     position:absolute;
-     margin-right:100px;
 
-     
-} 
-
-#button_section_color
+.button_filter 
 {
-    color: #0065fc;
-    justify-content: center;
-    align-items: center;
-    margin-top: 7px;
-    position: relative;
+    border-radius: 20px; 
+    justify-content: space-between;
+    padding:0;
+    border-left: none;
     
 }
 
-.button_section
-{border-radius: 20px;
-border-width: 1.4px;
-height:30px;
-width: 120px;
-align-items: center;
-justify-content: center;
-display: flex;
-border-style: solid;
-border-color:gray ;
-background-color: white;
-
+.icon_filter 
+{
+    border-radius:20px;
+    padding: 10px;
+    border:2px solid #deebff ;
+    color: #0065fc;
+    background-color:#deebff;
 }
 
-.position-button
+.spacing_filter
+{
+    margin: 0 10px ;
+    font-size: 20px;
+}
+
+.number_logements
 {
     display:flex;
 }
-
-.cercle2 { 
-    height: 20px; 
-    width: 20px; 
-    background-color:white;
-     border-radius: 50%; 
-
-} 
-
-.position_logo
-{
-    background-color: tomato;
-    display: flex;
-    position: relative;
-    height: 100px;
-}
-
-.logo_information
-
-{position: absolute;
-    margin-left: 6px;
-}
-
-.position_logo p 
-{
-    margin-left: 10px;
-    margin-bottom: 15px;
-}
-
-
-
-
-
-
-
-
