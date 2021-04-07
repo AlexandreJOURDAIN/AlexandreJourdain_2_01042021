@@ -58,12 +58,55 @@ nav li
 
 /* --- section --- */
 
+
 .barre_recherche
 {
    
     width: 400px;
     height: 30px;   
+    background-color: yellow;
+
 }
+/* -- filtre barre de recherche --*/
+
+.button_researsch_left
+{
+-webkit-border-top-left-radius: 20px;
+-webkit-border-bottom-left-radius: 20px;
+-moz-border-radius-topleft: 20px;
+-moz-border-radius-bottomleft: 20px;
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+height: 30px;
+width: 35px;
+border-style: none;
+
+
+}
+
+.button_researsch_right
+
+{
+-webkit-border-top-right-radius: 20px;
+-webkit-border-bottom-right-radius: 20px;
+-moz-border-radius-topright: 20px;
+-moz-border-radius-bottomright: 20px;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+height: 30px;
+border-style: none;
+background-color: #0065fc;
+color:white;
+
+}
+
+.input_researsch
+{
+    height: 24px;
+    padding: Opx;
+
+}
+
 
 section
 {
@@ -110,4 +153,22 @@ section
 .number_logements
 {
     display:flex;
+    align-items: center;
+    margin:0px;
+}
+.number_logements>i
+{
+    margin-right:10px;
+    
+}
+.icon_logements
+{
+
+border-radius:20px;
+padding: 5px 10px ;
+border:2px solid #deebff ;
+color: #0065fc;
+background-color:white;
+
+    
 }
