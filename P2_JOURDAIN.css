@@ -129,7 +129,8 @@ section
     justify-content: space-between;
     padding:0;
     border-left: none;
-    
+    border-width: 1px;
+
 }
 
 .icon_filter 
@@ -210,7 +211,7 @@ justify-items: right;
 .hotel_cannebiére
 
 {
-    height: 150px;
+    height: 180px;
     width: 180px;
     background-color:white;
     margin-left:30px;
@@ -220,12 +221,13 @@ justify-items: right;
 -moz-border-radius: 30px;
 border-radius: 30px;
 
+
 }
 
 .img_cannebiére
 {
     width: 100%;
-    height: 60%;
+    height: 50%;
     -webkit-border-top-left-radius: 30px;
 -webkit-border-top-right-radius: 30px;
 -moz-border-radius-topleft: 30px;
@@ -238,4 +240,10 @@ border-top-right-radius: 30px;
 {
     padding-bottom: 9px;
     padding-left: 10px;
+}
+
+#change_color_star
+{
+    color: blue;
+    inside
 }
