@@ -30,7 +30,7 @@ header
 {
     height: 50px;
     width: 100%;
-    position: relative;
+   
 }
 
 nav
@@ -96,13 +96,9 @@ a:hover
 /* -- filtre barre de recherche --*/
 .barre_recherche
 {
-   
-    width: 400px;
-    height: 30px;   
     margin-top: 10px;
     margin-bottom: 10px;
-    display: flex;
-    
+
 }
     
 .button_researsch_left
@@ -155,15 +151,14 @@ section
 
 .display_recherche
 {
-
+display: flex;
 }
+
 /* --- filtres --- */
 
 .display_filtre
 {
     display: flex;
-    align-items: center;
-    
 }
 
 
@@ -175,7 +170,7 @@ section
     padding:0;
     border-left: none;
     border-width: 1px;
-
+    padding-right: 5px;
 }
 
 .icon_filter 
@@ -185,11 +180,12 @@ section
     border:2px solid #deebff ;
     color: #0065fc;
     background-color:#deebff;
+    margin-right: 14px;
 }
 
 .spacing_filter
 {
-    margin: 0 10px ;
+    margin: 0 20px ;
     font-size: 20px;
 }
 
@@ -219,31 +215,36 @@ background-color:white;
 
 /*main*/
 
-.section_hebergements
-{width: 70%;
-background-color:#d9d9d9;
--webkit-border-radius: 30px;
--moz-border-radius: 30px;
-border-radius: 30px;
-display: flex;
-flex-wrap: wrap;
-padding-top: 20px;
-
-}
-
-
-
-
 article
 {
 justify-content: space-between;
 
 }
 
+.section_hebergements
+{flex: 0 1 70%;
+background-color:#d9d9d9;
+-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+display: flex;
+flex-wrap: wrap;
+padding: 20px;
+justify-content: center;
+justify-content: space-around;
+
+}
+
+.section_hebergements > p
+
+{
+   flex: 1 1 100%;
+   
+}
+
 .section_populaire
 {
-   width: 30%;
-   height: 20%;
+   flex: 0 1 20%;
     background-color:#d9d9d9;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
@@ -254,13 +255,15 @@ justify-content: space-between;
 .position_hebergement
 {
     display:flex;
+    justify-content: space-between;
+    padding-right: 20px;
     
 }
 
 .titre_hebergement
 
 {
-    
+   flex:1 1 100%;
 }
 /*display hotel hebergement à Marseille*/
 
@@ -279,25 +282,18 @@ justify-content: space-between;
 border-radius: 30px;
 padding: 5px;
 height:33%;
-margin-left: 20px;
 }
 
 .img_cannebiére
 {
-    width: 100%;
-    height: 50%;
-    -webkit-border-top-left-radius: 15px;
--webkit-border-top-right-radius: 15px;
--moz-border-radius-topleft: 15px;
--moz-border-radius-topright: 15px;
-border-top-left-radius: 15px;
-border-top-right-radius: 15px;
+    width:100%;
+    
 }
 
 .text_cannebiére
 {
     
-    padding-left: 10px;
+    padding: 30px;
 }
 
 #change_color_star
@@ -306,6 +302,14 @@ border-top-right-radius: 15px;
     
 }
 
+.img_container
+{
+height: 100px;
+overflow: hidden;
+align-items: center;
+display: flex;
+border-radius: 30px;
+}
 /*--les plus populaires*/
 
 .titre_populaire
@@ -329,8 +333,8 @@ border-top-right-radius: 15px;
 
 .hotel_populaires
 {
-    width: 78%;
-    height: 10%;
+    width: 70%;
+    height: 33%;
     background-color:white;
     text-align: left;
     font-size: 10px;
@@ -352,7 +356,6 @@ display: flex;
 border-top-left-radius: 15px;
 border-bottom-left-radius: 15px;
 padding-left: 3px;
-    
    
 }
 
@@ -373,3 +376,4 @@ padding-top: 10px;
 {
     margin-bottom: 10px;
 }
+
