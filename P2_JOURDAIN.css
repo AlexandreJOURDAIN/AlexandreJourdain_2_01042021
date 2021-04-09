@@ -58,7 +58,10 @@ nav li
 
 a:hover
 {
-    color:green;
+    color:blue;
+    border-top: 1px solid;
+    padding-top: 10px;
+
 }
 
 /* --- menu nav header --- */
@@ -66,9 +69,6 @@ a:hover
 .change_color
 {
     color:blue;
-    text-decoration:overline ;
-    border-top: 10px;
-    padding-bottom: 10px;
     
  }
 
@@ -76,7 +76,6 @@ a:hover
  {
      text-decoration: none;
      color:blue;
-     border-top: 1px solid;
      
  }
  .change_hypertext1
@@ -152,10 +151,12 @@ section
     height: 250px;
     text-align: left;
     margin-top: 15px;
-    
-    
 }
 
+.display_recherche
+{
+
+}
 /* --- filtres --- */
 
 .display_filtre
@@ -218,17 +219,15 @@ background-color:white;
 
 /*main*/
 
-.article_hebergements
-{flex: 70%;
-
+.section_hebergements
+{width: 70%;
 background-color:#d9d9d9;
 -webkit-border-radius: 30px;
 -moz-border-radius: 30px;
 border-radius: 30px;
 display: flex;
 flex-wrap: wrap;
-padding-top: 80px;
-position: relative;
+padding-top: 20px;
 
 }
 
@@ -236,17 +235,16 @@ position: relative;
 
 
 article
-{display: flex;
+{
 justify-content: space-between;
-justify-items: right;
 
 }
 
-.article_populaire
+.section_populaire
 {
-   flex: 25%;
-
-    background-color:blue;
+   width: 30%;
+   height: 20%;
+    background-color:#d9d9d9;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     border-radius: 30px;
@@ -256,7 +254,7 @@ justify-items: right;
 .position_hebergement
 {
     display:flex;
-    justify-content: space-between;
+    
 }
 
 .titre_hebergement
@@ -272,42 +270,40 @@ justify-items: right;
 
 {
     
-    width: 23%;
+    width: 27%;
     background-color:white;
     text-align: left;
     font-size: 10px;
     -webkit-border-radius: 30px;
 -moz-border-radius: 30px;
 border-radius: 30px;
-margin:10px;
 padding: 5px;
-margin-left: 33px;
-
-
+height:33%;
+margin-left: 20px;
 }
 
 .img_cannebiére
 {
     width: 100%;
     height: 50%;
-    -webkit-border-top-left-radius: 30px;
--webkit-border-top-right-radius: 30px;
--moz-border-radius-topleft: 30px;
--moz-border-radius-topright: 30px;
-border-top-left-radius: 30px;
-border-top-right-radius: 30px;
+    -webkit-border-top-left-radius: 15px;
+-webkit-border-top-right-radius: 15px;
+-moz-border-radius-topleft: 15px;
+-moz-border-radius-topright: 15px;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
 }
 
 .text_cannebiére
 {
-    padding-bottom: 9px;
+    
     padding-left: 10px;
 }
 
 #change_color_star
 {
     color: blue;
-    inside
+    
 }
 
 /*--les plus populaires*/
@@ -316,7 +312,8 @@ border-top-right-radius: 30px;
 {
     display: flex;
     justify-content: space-between;
-
+    margin-top: 10px;
+    padding-bottom: 10px;
 }
 
 .titre_populaire>h2
@@ -328,4 +325,51 @@ border-top-right-radius: 30px;
 .changement_populaire
 {
     padding-right: 30px;
+}
+
+.hotel_populaires
+{
+    width: 78%;
+    height: 10%;
+    background-color:white;
+    text-align: left;
+    font-size: 10px;
+    -webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+margin:20px;
+padding: 5px;
+margin-left: 33px;
+display: flex;
+
+}
+
+.img_soleil_du_matin
+{
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+border-top-left-radius: 15px;
+border-bottom-left-radius: 15px;
+padding-left: 3px;
+    
+   
+}
+
+.text_soleil_du_matin
+{
+    padding-left: 15px;
+    padding-top: 20px;
+    
+}
+
+.star_position_soleil_du_matin
+
+{
+padding-top: 10px;
+}
+
+.titre_soleil_du_matin
+{
+    margin-bottom: 10px;
 }
