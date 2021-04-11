@@ -429,27 +429,68 @@ height: 400px;
 }
 
 
-/*--Position Hebergement Activité petit*/
+/*--Position Hebergement Activité moyen*/
 
 .position_moyenne_activité
 {
-   width: 25%;
+   width: 22%;
    height: 50%;
    border-radius: 30px;
    height: 100%;
    background-color: darkmagenta;
+   display: flex;
+   flex-direction: column;
+   overflow: hidden;
 
 }
 
 .position_moyenne_image
 {
-  
+  height: 200px;
+  width: 300px;
   overflow: hidden;
+  
 }
 
 .img_moyenne
 {
     width: 100%;
+    border-radius: 30px;
     
 }
 
+/*--Position Hebergement Activité petit*/
+
+.position_petite_activité
+{
+    
+    overflow: hidden;
+    width: 22%;
+    border-radius: 30px;
+    height: 100%;
+    background-color: darkred;
+    display: flex;
+    flex-direction: column;
+}
+
+.position_petite_image
+{
+    height: 100px;
+    overflow: hidden;
+    width:;
+  
+}
+
+.img_petite
+{
+    width: 100%;
+    border-radius: 30px;
+    
+}
+
+
+
+.column
+{
+    flex:25%
+}
