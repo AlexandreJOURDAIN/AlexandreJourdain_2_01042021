@@ -388,3 +388,68 @@ padding-top: 10px;
     border-bottom-left-radius: 30px;
 
 }
+
+/*--Position Hebergement Activité grand*/
+
+.position_activité
+
+{
+    background-color: beige;
+    display: flex;
+    
+}
+
+.img_grande
+{
+ width: 200%;
+ 
+}
+
+.position_grande_image
+{
+display: flex;
+width: 300px;
+height: 400px;
+
+}
+.position_grande_activité
+{
+   
+   background-color: brown;
+   width: 22%;
+   display: flex;
+   flex-direction: column;
+   overflow: hidden;
+   border-radius: 30px;
+  
+}
+.text_grande_image
+{
+
+}
+
+
+/*--Position Hebergement Activité petit*/
+
+.position_moyenne_activité
+{
+   width: 25%;
+   height: 50%;
+   border-radius: 30px;
+   height: 100%;
+   background-color: darkmagenta;
+
+}
+
+.position_moyenne_image
+{
+  
+  overflow: hidden;
+}
+
+.img_moyenne
+{
+    width: 100%;
+    
+}
+
