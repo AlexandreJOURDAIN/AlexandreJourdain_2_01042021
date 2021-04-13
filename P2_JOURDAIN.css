@@ -6,6 +6,11 @@
     margin: 0;
     padding:0;
 }
+button
+{
+    border-style: none;
+}
+
 body
 {
     font-family: "Raleway",sans-serif ;
@@ -34,14 +39,10 @@ header
 }
 
 nav
-
 {
     width: 100%;
-    height: 50px;
     display: flex;
     justify-content: space-between;
-    
-    
 }
 
 nav ul
@@ -53,7 +54,7 @@ nav ul
 nav li
 {
     margin: 0 10px 0 20px;
-    padding-top: 15px;
+    padding-top: 11px;
 }
 
 a:hover
@@ -97,22 +98,21 @@ a:hover
 .barre_recherche
 {
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    display: flex;
 
 }
     
 .button_researsch_left
 {
--webkit-border-top-left-radius: 20px;
--webkit-border-bottom-left-radius: 20px;
--moz-border-radius-topleft: 20px;
--moz-border-radius-bottomleft: 20px;
-border-top-left-radius: 20px;
-border-bottom-left-radius: 20px;
+
+border-top-left-radius: 11px;
+border-bottom-left-radius: 11px;
 height: 30px;
 width: 35px;
 border-style: none;
 pointer-events: none;
+
 
 
 }
@@ -120,12 +120,9 @@ pointer-events: none;
 .button_researsch_right
 
 {
--webkit-border-top-right-radius: 20px;
--webkit-border-bottom-right-radius: 20px;
--moz-border-radius-topright: 20px;
--moz-border-radius-bottomright: 20px;
-border-top-right-radius: 20px;
-border-bottom-right-radius: 20px;
+
+border-top-right-radius: 11px;
+border-bottom-right-radius: 11px;
 height: 30px;
 border-style: none;
 background-color: #0065fc;
@@ -136,7 +133,7 @@ border left:0;
 
 .input_researsch
 {
-    height: 24px;
+    height: 26px;
     padding: Opx;
     margin: 0px;
 }
@@ -144,7 +141,7 @@ border left:0;
 
 section
 {
-    height: 250px;
+    height: 230px;
     text-align: left;
     margin-top: 15px;
 }
@@ -159,6 +156,7 @@ display: flex;
 .display_filtre
 {
     display: flex;
+    justify-content: left;
 }
 
 
@@ -168,9 +166,11 @@ display: flex;
     border-radius: 20px; 
     justify-content: space-between;
     padding:0;
-    border-left: none;
+    /*border-left: none;*/
     border-width: 1px;
     padding-right: 5px;
+    background-color: white;
+    border:1px solid  #deebff;
 }
 
 .icon_filter 
@@ -181,19 +181,28 @@ display: flex;
     color: #0065fc;
     background-color:#deebff;
     margin-right: 14px;
+    margin-left:-7px;
+    
 }
 
 .spacing_filter
 {
-    margin: 0 20px ;
-    font-size: 20px;
+    margin: 0 15px ;
+    font-size: 17px;
 }
+
+.position_filter
+{
+padding-top: 9px;
+}
+
 
 .number_logements
 {
     display:flex;
     align-items: center;
     margin-top: 20px;
+    font-size: 11px;
 
 }
 .number_logements>i
@@ -204,17 +213,18 @@ display: flex;
 .icon_logements
 {
 
-border-radius:20px;
-padding: 5px 10px ;
+border-radius:23px;
+padding: 4px 8px ;
 border:2px solid #deebff ;
 color: #0065fc;
 background-color:white;
 
-    
+
 }
 
-/*main*/
 
+
+/*display hotel hebergement à Marseille*/
 article
 {
 justify-content: space-between;
@@ -224,13 +234,12 @@ justify-content: space-between;
 .section_hebergements
 {flex: 0 1 70%;
 background-color:#d9d9d9;
--webkit-border-radius: 30px;
--moz-border-radius: 30px;
-border-radius: 30px;
+border-radius: 20px;
 display: flex;
 flex-wrap: wrap;
 padding: 20px;
 justify-content: space-around;
+
 
 }
 
@@ -245,9 +254,7 @@ justify-content: space-around;
 {
    flex: 0 1 25%;
     background-color:#d9d9d9;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    border-radius: 30px;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -268,7 +275,6 @@ justify-content: space-around;
 {
    flex:1 1 100%;
 }
-/*display hotel hebergement à Marseille*/
 
 
 
@@ -280,9 +286,7 @@ justify-content: space-around;
     background-color:white;
     text-align: left;
     font-size: 10px;
-    -webkit-border-radius: 30px;
--moz-border-radius: 30px;
-border-radius: 30px;
+border-radius: 20px;
 padding: 5px;
 height:33%;
 }
@@ -388,109 +392,112 @@ padding-top: 10px;
     border-bottom-left-radius: 30px;
 
 }
+  
 
-/*--Position Hebergement Activité grand*/
+/*--Position Activité*/
+
+.global_position_activity
+{
+    display: flex;
+    flex: 1 1 100%;
+    justify-content: space-between;
+}
 
 .position_activité
 
 {
-    background-color: beige;
-    display: flex;
-    
+    flex: 50%;
+   
 }
 
-.img_grande
+.display_image
 {
- width: 200%;
+    width: 100%;
+    border-radius: 30px;
+}
+
+/*--Position Activité left*/
+.position_activité_left
+{
+
+flex: 1 1 100%;
+overflow: hidden;
+}
+
+.big_image
+{
+
+width:200%;
+border-radius: 30px;
+
+}
+
+/*--Position Activité right*/
+
+.position_activité_right
+
+{
+    flex: 1 1 50%;
+    overflow: hidden;
+    height: 500px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+
+
+.midle_image
+{
+ width: 100%;
+ height: 200px;
+ overflow: hidden;
+ border-radius: 30px;
  
 }
 
-.position_grande_image
-{
-display: flex;
-width: 300px;
-height: 400px;
 
-}
-.position_grande_activité
+.small_image
 {
-   
-   background-color: brown;
-   width: 22%;
-   display: flex;
-   flex-direction: column;
-   overflow: hidden;
-   border-radius: 30px;
-  
-}
-.text_grande_image
-{
+width: 100%;
+overflow: hidden;
+height: 300px;
 
+border-radius: 30px;
 }
 
+/*footer*/
 
-/*--Position Hebergement Activité moyen*/
 
-.position_moyenne_activité
+.footer
+
 {
-   width: 22%;
-   height: 50%;
-   border-radius: 30px;
-   height: 100%;
-   background-color: darkmagenta;
-   display: flex;
-   flex-direction: column;
-   overflow: hidden;
-
-}
-
-.position_moyenne_image
-{
-  height: 200px;
-  width: 300px;
-  overflow: hidden;
-  
-}
-
-.img_moyenne
-{
-    width: 100%;
-    border-radius: 30px;
-    
-}
-
-/*--Position Hebergement Activité petit*/
-
-.position_petite_activité
-{
-    
-    overflow: hidden;
-    width: 22%;
-    border-radius: 30px;
-    height: 100%;
-    background-color: darkred;
     display: flex;
-    flex-direction: column;
-}
-
-.position_petite_image
-{
-    height: 100px;
-    overflow: hidden;
-    width:;
-  
-}
-
-.img_petite
-{
-    width: 100%;
-    border-radius: 30px;
     
+    justify-content: flex-start;
+    background-color:#d9d9d9;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 13px;
 }
 
+.footer_space
+{ 
+   margin:48px 250px 48px 0px;
+}
 
+.title_footer
 
-.column
 {
-    flex:25%
+ margin-bottom: 15px;
+ width: 185px;
 }
+
+
+
+
+
+    
+  
+
