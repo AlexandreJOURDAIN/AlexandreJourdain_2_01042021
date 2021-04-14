@@ -5,6 +5,8 @@
 {
     margin: 0;
     padding:0;
+    box-sizing: border-box;
+    
 }
 button
 {
@@ -141,9 +143,9 @@ border left:0;
 
 section
 {
-    height: 230px;
+    height: 220px;
     text-align: left;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .display_recherche
@@ -171,6 +173,7 @@ display: flex;
     padding-right: 5px;
     background-color: white;
     border:1px solid  #deebff;
+    margin-left: 10px;
 }
 
 .icon_filter 
@@ -187,13 +190,14 @@ display: flex;
 
 .spacing_filter
 {
-    margin: 0 15px ;
+    margin-left: 15px;
     font-size: 17px;
 }
 
 .position_filter
 {
-padding-top: 9px;
+padding-top: 10px;
+padding-right: ;
 }
 
 
@@ -474,7 +478,7 @@ border-radius: 30px;
 
 {
     display: flex;
-    
+    flex: 0 1 100%;
     justify-content: flex-start;
     background-color:#d9d9d9;
     margin-top: 20px;
@@ -491,7 +495,6 @@ border-radius: 30px;
 
 {
  margin-bottom: 15px;
- width: 185px;
 }
 
 
