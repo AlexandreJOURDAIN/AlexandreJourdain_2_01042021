@@ -8,16 +8,22 @@
     box-sizing: border-box;
     
 }
-button
+a
 {
-    border-style: none;
+    text-decoration: none;
 }
+
+button:hover
+{
+    background-color:#d9d9d9;
+    text-decoration: none;
+}
+
 
 body
 {
     font-family: "Raleway",sans-serif ;
     margin: O;
-      
 }
 
 h1
@@ -64,6 +70,7 @@ a:hover
     color:blue;
     border-top: 1px solid;
     padding-top: 10px;
+    
 
 }
 
@@ -99,10 +106,14 @@ a:hover
 /* -- filtre barre de recherche --*/
 .barre_recherche
 {
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 20px;
     display: flex;
-
+}
+::placeholder
+{
+color: black;
+font-weight: bolder;
 }
     
 .button_researsch_left
@@ -114,8 +125,6 @@ height: 30px;
 width: 35px;
 border-style: none;
 pointer-events: none;
-
-
 
 }
 
@@ -135,11 +144,14 @@ border left:0;
 
 .input_researsch
 {
-    height: 26px;
+    height: 30px;
     padding: Opx;
     margin: 0px;
+    border-style: none;
+    border: 1px solid #deebff;
+    border-left: none;
+    border-right: none;
 }
-
 
 section
 {
@@ -290,21 +302,21 @@ justify-content: space-around;
     background-color:white;
     text-align: left;
     font-size: 10px;
-border-radius: 20px;
 padding: 5px;
 height:33%;
+border-radius:10px;
 }
 
 .img_cannebiére
 {
     width:100%;
-    
+   
 }
 
 .text_cannebiére
 {
     
-    padding: 10px;
+    padding: 5px;
 }
 
 #change_color_star
@@ -319,7 +331,8 @@ height: 100px;
 overflow: hidden;
 align-items: center;
 display: flex;
-border-radius: 30px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
 }
 /*--les plus populaires*/
 
@@ -349,14 +362,12 @@ border-radius: 30px;
     background-color:white;
     text-align: left;
     font-size: 10px;
-    -webkit-border-radius: 30px;
--moz-border-radius: 30px;
-border-radius: 30px;
-margin:20px;
-padding: 5px;
+border-radius: 8px;
+margin:20px;;
 margin-left: 33px;
 display: flex;
 justify-content: center;
+padding:3px;
 
 }
 
@@ -367,8 +378,7 @@ justify-content: center;
 
 .text_soleil_du_matin
 {
-    padding-left: 15px;
-    padding-top: 20px;
+    padding:8px;
     
 }
 
@@ -392,8 +402,8 @@ padding-top: 10px;
     overflow: hidden;
     align-items: center;
     display: flex;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
 
 }
   
@@ -403,72 +413,55 @@ padding-top: 10px;
 .global_position_activity
 {
     display: flex;
-    flex: 1 1 100%;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 4px;
 }
 
-.position_activité
-
-{
-    flex: 50%;
-   
-}
 
 .display_image
 {
     width: 100%;
-    border-radius: 30px;
-}
-
-/*--Position Activité left*/
-.position_activité_left
-{
-
-flex: 1 1 100%;
-overflow: hidden;
+    border-radius: 30px
 }
 
 .big_image
 {
-
-width:200%;
+width: 300%;
 border-radius: 30px;
-
 }
-
-/*--Position Activité right*/
-
-.position_activité_right
-
-{
-    flex: 1 1 50%;
-    overflow: hidden;
-    height: 500px;
-    margin: 10px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-   
-}
-
 
 .midle_image
 {
- width: 100%;
  height: 200px;
  overflow: hidden;
- border-radius: 30px;
- 
 }
-
 
 .small_image
 {
-width: 100%;
-overflow: hidden;
-height: 300px;
-
 border-radius: 30px;
+height: 50px;
+}
+
+.column
+{
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 20px;
+    overflow: hidden;
+    border-radius: 30px;
+    border-style: 1px;
+}
+.column img {
+    margin-top: 20px;
+    margin-bottom: 20Px;
+    border-radius: 30px;
+    justify-content: space-around;
+    display: flex;
+}
+.text_activity
+{
+ padding-left: 10px;
+ padding-bottom: px;
 }
 
 /*footer*/
