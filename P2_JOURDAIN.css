@@ -74,6 +74,12 @@ a:hover
 
 }
 
+/* ---Media queries---*/
+
+@media screen {
+    
+}
+
 /* --- menu nav header --- */
 
 .change_color
@@ -177,21 +183,23 @@ display: flex;
 
 .button_filter 
 {
-    border-radius: 20px; 
+    border-radius: 30px; 
     justify-content: space-between;
     padding:0;
-    /*border-left: none;*/
     border-width: 1px;
     padding-right: 5px;
     background-color: white;
     border:1px solid  #deebff;
     margin-left: 10px;
+    display: flex;
+    align-items: center;
+
 }
 
 .icon_filter 
 {
-    border-radius:20px;
-    padding: 10px;
+    border-radius: 40px;
+    padding: 8px;
     border:2px solid #deebff ;
     color: #0065fc;
     background-color:#deebff;
@@ -199,6 +207,7 @@ display: flex;
     margin-left:-7px;
     
 }
+
 
 .spacing_filter
 {
