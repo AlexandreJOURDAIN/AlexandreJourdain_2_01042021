@@ -5,26 +5,45 @@
     margin: 0;
     padding: 0;
 }
+h1
+{
+    margin-bottom: 10px;
+}
 section
 {
     margin-top: 40px;
+    width: 100%;
+}
+
+/*barre de recherche*/
+.barre_recherche
+{
+justify-content: center;
 }
 
 
 /*section*/
 
-
+.text_section
+{
+    
+}
 nav>ul
 {
  flex-direction: column;
 }
 .display_filtre
 {
-    width: auto;
+    width: 100px;
     flex-direction: column;
+    flex-wrap: wrap;
+}
+.romantique
+{
+    order: -1;
 }
 
-/*hebergements*/
+/*global hebergements*/
 
 .global_position_activity
 {
@@ -42,7 +61,10 @@ nav>ul
     width:100%;
     margin: 5px;
 }
-
+.section_populaire
+{
+    margin-top:70px;
+}
 
 /*hebergements Marseille*/
 
@@ -52,6 +74,7 @@ nav>ul
     background-color:white;
     flex-direction: column;
     padding: 0px;
+    margin-top: 30px;
 }
 
 .hotel_cannebiére
@@ -65,7 +88,6 @@ nav>ul
 
 .container_text_image_activity
 {
-    background-color: thistle;
     margin-top:10px;
 }
 .column
@@ -95,8 +117,19 @@ height: 100px;
 {
  flex-direction: column;
 }
-
 footer
 {
-    margin-top: px;
+    flex: 1 1 100%;
+    height: auto;
+}
+
+
+.title_footer
+{
+    padding-bottom: 15px;
+}
+
+.footer_text
+{
+    margin:20px;
 }
