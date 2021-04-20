@@ -504,20 +504,12 @@ padding-top: 10px;
  {
 
  /*global style*/
- *
- {
-         margin: 0;
-         padding: 0;
-        }
+ 
  h1
 {
     margin-bottom: 10px;
 }
-section
-{
-    margin-top: 40px;
-    width: 100%;
-}
+
 
 /*barre de recherche*/
 .barre_recherche
@@ -525,9 +517,19 @@ section
     justify-content: center;
 }
 
-
+.inscrire_order
+{
+ order:1; 
+}
+.hebergement_order
+{
+ order:3;
+}
+.activités_order
+{
+ order:2;
+}
 /*section*/
-
 
 nav>ul
 {
@@ -537,21 +539,20 @@ nav>ul
 {
  flex-direction: column;
 }
-.position_filter
+.text_section
 {
-
+margin-top: 30px;
 }
 .position_button
 {
+    flex-direction: row;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    height: 75px;
 }
 
 .spacing_filter
 {
-    flex: 100%;
+margin: 5px;
 }
 /*global hebergements*/
 
@@ -569,7 +570,7 @@ nav>ul
 /*populaire*/
 .hotel_populaires
 {
-    width:100%;
+    width:auto;
     margin: 5px;
 }
 .section_populaire
