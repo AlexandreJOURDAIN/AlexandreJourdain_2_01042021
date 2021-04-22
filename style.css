@@ -245,6 +245,13 @@ background-color:white;
 
 
 /*display hotel hebergement à Marseille*/
+a.lien_Hebergements
+{
+    display: block;
+    height: 60px; 
+    text-indent:-9999px;
+}
+
 article
 {
 justify-content: space-between;
@@ -380,7 +387,7 @@ align-items: center;
 
 .img_soleil_du_matin
 {
-   height: 100px;
+   height: 120px;
 }
 .img_eau
 {
