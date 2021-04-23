@@ -139,6 +139,10 @@ border-left:0;
 
 }
 
+.buttton_researsh_loupe
+{
+    display:none
+}
 .input_researsch
 {
     height: 30px;
@@ -575,11 +579,44 @@ padding-top: 10px;
 .barre_recherche
 {
     justify-content: center;
+    margin-right: 50px;
 }
 
+.buttton_researsh_loupe
+{
+    border-radius: 11px;
+height: 30px;
+border-style: none;
+background-color: #0065fc;
+color:white;
+border-left:0;
+display: block;
+width: 35px;
+}
+
+.button_researsch_right
+{
+display: none;
+}
+
+/*header*/
+.logo-header
+{
+
+}
+
+nav
+{
+
+}
+nav>ul
+{
+    flex-direction: column;
+}
 .inscrire_order
 {
  order:1; 
+ 
 }
 .hebergement_order
 {
@@ -589,12 +626,8 @@ padding-top: 10px;
 {
  order:2;
 }
-/*section*/
+/*display filter*/
 
-nav>ul
-{
-    flex-direction: column;
-}
 .display_filtre
 {
  flex-direction: column;
@@ -628,10 +661,18 @@ margin: 5px;
 }
 
 /*populaire*/
+.img_soleil_du_matin
+{
+    height: 140px;
+}
+.img_blanc
+{
+    height: 320px;
+}
 .hotel_populaires
 {
     width:auto;
-    margin: 5px;
+    margin: 12px;
 }
 .section_populaire
 {
@@ -657,6 +698,12 @@ margin: 5px;
 
 
 /*activité à Marseille*/
+
+
+.titre_hebergement_activité
+{
+    margin: 20px;
+}
 
 .container_text_image_activity
 {

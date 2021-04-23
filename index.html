@@ -21,20 +21,22 @@
 	<header>
 		<!--menu nav header-->
 		<nav>
-			<img class="logo-header" src="./logo/Reservia.svg" alt="logo_Header" />
-			<ul>
-				<!--add links-->
+				<img class="logo-header" src="./logo/Reservia.svg" alt="logo_Header" />
+				<ul>
+					<!--add links-->
 
-				<li class="hebergement_order change_color">
-					<a class="change_hypertext" href="#hebergements"> Hebergements</a>
-				</li>
-				<li class="activités_order">
-					<a class="change_hypertext1" href="#activités">Activités</a>
-				</li>
-				<li class="inscrire_order  change_color">
-					<a class="change_hypertext" href="">S'inscrire</a>
-				</li>
-			</ul>
+					<li class="hebergement_order change_color">
+						<a class="change_hypertext" href="#hebergements"> Hebergements</a>
+					</li>
+					<li class="activités_order">
+						<a class="change_hypertext1" href="#activités">Activités</a>
+					</li>
+					<div>
+						<li class="inscrire_order  change_color">
+							<a class="last_child change_hypertext" href="">S'inscrire</a>
+						</li>
+					</div>
+				</ul>
 		</nav>
 	</header>
 	<!--Section -->
@@ -53,6 +55,7 @@
 				<input class="input_researsch" type="text" id="recherche" name="recherche" b
 					placeholder="Marseille,France" />
 				<button class="button_researsch_right">rechercher</button>
+				<button class="buttton_researsh_loupe"> <i class="display_loupe fas fa-search"></i> </button>
 			</form>
 			<ul class="display_filtre">
 				<div class="position_filter">
@@ -103,7 +106,7 @@
 			<section class="section_hebergements">
 				<h2 class="titre_hebergement">Hebergement à Marseille</h2>
 				<div class="hotel_cannebiére">
-						<a class="lien_Hebergements" href="">
+					<a class="lien_Hebergements" href="">
 						<div class="img_container">
 							<img class="img_cannebiére"
 								src="./hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
@@ -119,92 +122,96 @@
 							<i class="far fa-star"></i>
 						</div>
 					</a>
-					</div>
-				<div class="hotel_cannebiére">
-					<a class="lien_Hebergements" href="">
-					<div class="img_container">
-						<img class="img_cannebiére" src="./hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
-							alt="image auberge la cannebiére" />
-					</div>
-					<div class="text_cannebiére">
-						<h3>Hôtel du port</h3>
-						<p>nuit à partir de <b>52 €</b></p>
-						<i id="change_color_star" class="fas fa-star"></i>
-						<i id="change_color_star" class="fas fa-star"></i>
-						<i id="change_color_star" class="fas fa-star"></i>
-						<i id="change_color_star" class="fas fa-star"></i>
-						<i id="change_color_star" class="fas fa-star"></i>
-					</div>
-				</a>
 				</div>
 				<div class="hotel_cannebiére">
 					<a class="lien_Hebergements" href="">
-					<div class="img_container">
-						<img class="img_cannebiére" src="./hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg"
-							alt="image auberge la cannebiére" />
-					</div>
-					<div class="text_cannebiére">
-						<h3>Hôtel les mouettes</h3>
-						<p>nuit à partir de <b>76 €</b></p>
-						<i id="change_color_star" class="fas fa-star"></i>
-						<i id="change_color_star" class="fas fa-star"></i>
-						<i id="change_color_star" class="fas fa-star"></i>
-						<i id="change_color_star" class="fas fa-star"></i>
-						<i class="far fa-star"></i>
-					</div>
-				</a>
+						<div class="img_container">
+							<img class="img_cannebiére"
+								src="./hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+								alt="image auberge la cannebiére" />
+						</div>
+						<div class="text_cannebiére">
+							<h3>Hôtel du port</h3>
+							<p>nuit à partir de <b>52 €</b></p>
+							<i id="change_color_star" class="fas fa-star"></i>
+							<i id="change_color_star" class="fas fa-star"></i>
+							<i id="change_color_star" class="fas fa-star"></i>
+							<i id="change_color_star" class="fas fa-star"></i>
+							<i id="change_color_star" class="fas fa-star"></i>
+						</div>
+					</a>
 				</div>
 				<div class="hotel_cannebiére">
 					<a class="lien_Hebergements" href="">
-					<div class="img_container">
-						<img class="img_cannebiére" src="./hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
-							alt="image auberge la cannebiére" />
-					</div>
-					<div class="text_cannebiére">
-						<h3>Hôtel de la mer</h3>
-						<p>nuit à partir de <b>46 €</b></p>
-						<i id="change_color_star" class="fas fa-star"></i>
-						<i id="change_color_star" class="fas fa-star"></i>
-						<i id="change_color_star" class="fas fa-star"></i>
-						<i class="far fa-star"></i>
-						<i class="far fa-star"></i>
-					</div>
-				</a>
+						<div class="img_container">
+							<img class="img_cannebiére"
+								src="./hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+								alt="image auberge la cannebiére" />
+						</div>
+						<div class="text_cannebiére">
+							<h3>Hôtel les mouettes</h3>
+							<p>nuit à partir de <b>76 €</b></p>
+							<i id="change_color_star" class="fas fa-star"></i>
+							<i id="change_color_star" class="fas fa-star"></i>
+							<i id="change_color_star" class="fas fa-star"></i>
+							<i id="change_color_star" class="fas fa-star"></i>
+							<i class="far fa-star"></i>
+						</div>
+					</a>
 				</div>
 				<div class="hotel_cannebiére">
 					<a class="lien_Hebergements" href="">
-					<div class="img_container">
-						<img class="img_cannebiére" src="./hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
-							alt="image auberge la cannebiére" />
-					</div>
-					<div class="text_cannebiére">
-						<h3>Auberge le panier</h3>
-						<p>nuit à partir de <b>23 €</b></p>
-						<i id="change_color_star" class="fas fa-star"></i>
-						<i id="change_color_star" class="fas fa-star"></i>
-						<i id="change_color_star" class="fas fa-star"></i>
-						<i id="change_color_star" class="fas fa-star"></i>
-						<i class="far fa-star"></i>
-					</div>
-				</a>
+						<div class="img_container">
+							<img class="img_cannebiére"
+								src="./hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+								alt="image auberge la cannebiére" />
+						</div>
+						<div class="text_cannebiére">
+							<h3>Hôtel de la mer</h3>
+							<p>nuit à partir de <b>46 €</b></p>
+							<i id="change_color_star" class="fas fa-star"></i>
+							<i id="change_color_star" class="fas fa-star"></i>
+							<i id="change_color_star" class="fas fa-star"></i>
+							<i class="far fa-star"></i>
+							<i class="far fa-star"></i>
+						</div>
+					</a>
 				</div>
 				<div class="hotel_cannebiére">
 					<a class="lien_Hebergements" href="">
-					<div class="img_container">
-						<img class="img_cannebiére"
-							src="./hebergements/1_xlarge/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
-							alt="image auberge la cannebiére" />
-					</div>
-					<div class="text_cannebiére">
-						<h3>Hôtel chez Amina</h3>
-						<p>nuit à partir de <b>96 €</b></p>
-						<i id="change_color_star" class="fas fa-star"></i>
-						<i id="change_color_star" class="fas fa-star"></i>
-						<i id="change_color_star" class="fas fa-star"></i>
-						<i id="change_color_star" class="fas fa-star"></i>
-						<i id="change_color_star" class="fas fa-star"></i>
-					</div>
-				</a>
+						<div class="img_container">
+							<img class="img_cannebiére"
+								src="./hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+								alt="image auberge la cannebiére" />
+						</div>
+						<div class="text_cannebiére">
+							<h3>Auberge le panier</h3>
+							<p>nuit à partir de <b>23 €</b></p>
+							<i id="change_color_star" class="fas fa-star"></i>
+							<i id="change_color_star" class="fas fa-star"></i>
+							<i id="change_color_star" class="fas fa-star"></i>
+							<i id="change_color_star" class="fas fa-star"></i>
+							<i class="far fa-star"></i>
+						</div>
+					</a>
+				</div>
+				<div class="hotel_cannebiére">
+					<a class="lien_Hebergements" href="">
+						<div class="img_container">
+							<img class="img_cannebiére"
+								src="./hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+								alt="image auberge la cannebiére" />
+						</div>
+						<div class="text_cannebiére">
+							<h3>Hôtel chez Amina</h3>
+							<p>nuit à partir de <b>96 €</b></p>
+							<i id="change_color_star" class="fas fa-star"></i>
+							<i id="change_color_star" class="fas fa-star"></i>
+							<i id="change_color_star" class="fas fa-star"></i>
+							<i id="change_color_star" class="fas fa-star"></i>
+							<i id="change_color_star" class="fas fa-star"></i>
+						</div>
+					</a>
 				</div>
 				<p> <b>Afficher plus </b></p>
 			</section>
@@ -217,62 +224,62 @@
 
 				<div class="hotel_populaires">
 					<a class="lien_Hebergements_pop" href="">
-					<div class="img_container_populaire">
-						<img class="img_soleil_du_matin"
-							src="./hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
-							alt="image auberge la cannebiére" />
-					</div>
+						<div class="img_container_populaire">
+							<img class="img_soleil_du_matin"
+								src="./hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+								alt="image auberge la cannebiére" />
+						</div>
 
-					<div class="text_soleil_du_matin">
-						<h3 class="titre_soleil_du_matin">Hotel le soleil du matin</h3>
-						<p>nuit à partir de <b>128 €</b></p>
-						<div class="star_position_soleil_du_matin">
-							<i id="change_color_star" class="fas fa-star"></i>
-							<i id="change_color_star" class="fas fa-star"></i>
-							<i id="change_color_star" class="fas fa-star"></i>
-							<i id="change_color_star" class="fas fa-star"></i>
-							<i id="change_color_star" class="fas fa-star"></i>
+						<div class="text_soleil_du_matin">
+							<h3 class="titre_soleil_du_matin">Hotel le soleil du matin</h3>
+							<p>nuit à partir de <b>128 €</b></p>
+							<div class="star_position_soleil_du_matin">
+								<i id="change_color_star" class="fas fa-star"></i>
+								<i id="change_color_star" class="fas fa-star"></i>
+								<i id="change_color_star" class="fas fa-star"></i>
+								<i id="change_color_star" class="fas fa-star"></i>
+								<i id="change_color_star" class="fas fa-star"></i>
+							</div>
 						</div>
-					</div>
-				</a>
+					</a>
 				</div>
 				<div class="hotel_populaires">
 					<a class="lien_Hebergements_pop" href="">
-					<div class="img_container_populaire">
-						<img class="img_eau" src="./hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
-							alt="image auberge la cannebiére" />
-					</div>
-					<div class="text_soleil_du_matin">
-						<h3 class="titre_soleil_du_matin">Au coeur de l'eau Chambres d'hôtes</h3>
-						<p>nuit à partir de <b>71 €</b></p>
-						<div class="star_position_soleil_du_matin">
-							<i id="change_color_star" class="fas fa-star"></i>
-							<i id="change_color_star" class="fas fa-star"></i>
-							<i id="change_color_star" class="fas fa-star"></i>
-							<i id="change_color_star" class="fas fa-star"></i>
-							<i class="far fa-star"></i>
+						<div class="img_container_populaire">
+							<img class="img_eau" src="./hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
+								alt="image auberge la cannebiére" />
 						</div>
-					</div>
-				</a>
+						<div class="text_soleil_du_matin">
+							<h3 class="titre_soleil_du_matin">Au coeur de l'eau Chambres d'hôtes</h3>
+							<p>nuit à partir de <b>71 €</b></p>
+							<div class="star_position_soleil_du_matin">
+								<i id="change_color_star" class="fas fa-star"></i>
+								<i id="change_color_star" class="fas fa-star"></i>
+								<i id="change_color_star" class="fas fa-star"></i>
+								<i id="change_color_star" class="fas fa-star"></i>
+								<i class="far fa-star"></i>
+							</div>
+						</div>
+					</a>
 				</div>
 				<div class="hotel_populaires">
 					<a class="lien_Hebergements_pop" href="">
-					<div class="img_container_populaire">
-						<img class="img_blanc" src="./hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
-							alt=" image auberge la cannebiére" />
-					</div>
-					<div class="text_soleil_du_matin">
-						<h3 class="titre_soleil_du_matin">Hôtel Tout bleu et Blanc</h3>
-						<p>nuit à partir de <b>68 €</b></p>
-						<div class="star_position_soleil_du_matin">
-							<i id="change_color_star" class="fas fa-star"></i>
-							<i id="change_color_star" class="fas fa-star"></i>
-							<i id="change_color_star" class="fas fa-star"></i>
-							<i id="change_color_star" class="fas fa-star"></i>
-							<i class="far fa-star"></i>
+						<div class="img_container_populaire">
+							<img class="img_blanc" src="./hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+								alt=" image auberge la cannebiére" />
 						</div>
-					</div>
-				</a>
+						<div class="text_soleil_du_matin">
+							<h3 class="titre_soleil_du_matin">Hôtel Tout bleu et Blanc</h3>
+							<p>nuit à partir de <b>68 €</b></p>
+							<div class="star_position_soleil_du_matin">
+								<i id="change_color_star" class="fas fa-star"></i>
+								<i id="change_color_star" class="fas fa-star"></i>
+								<i id="change_color_star" class="fas fa-star"></i>
+								<i id="change_color_star" class="fas fa-star"></i>
+								<i class="far fa-star"></i>
+							</div>
+						</div>
+					</a>
 				</div>
 
 			</section>
@@ -284,76 +291,76 @@
 			<div class="global_position_activity">
 				<div class="column">
 					<a class="lien_Hebergements" href="">
-					<div class="container_text_image_activity">
-						<div class="img_container_activity">
-							<img class="big_image size_image"
-								src="./activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="" />
+						<div class="container_text_image_activity">
+							<div class="img_container_activity">
+								<img class="big_image size_image"
+									src="./activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="" />
+							</div>
+							<div class="text_activity">
+								<b>vieux port</b>
+							</div>
 						</div>
-						<div class="text_activity">
-							<b>vieux port</b>
-						</div>
-					</div>
-				</a>
+					</a>
 				</div>
 				<div class="column">
 					<div class="container_text_image_activity">
 						<a class="lien_Hebergements" href="">
-						<div class="img_container_activity">
-							<img class="midle_image size_image"
-								src="activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="" />
-						</div>
-						<div class="text_activity">
-							<b>Fort de pomégues</b>
-						</div>
-					</a>
+							<div class="img_container_activity">
+								<img class="midle_image size_image"
+									src="activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="" />
+							</div>
+							<div class="text_activity">
+								<b>Fort de pomégues</b>
+							</div>
+						</a>
 					</div>
 					<div class="container_text_image_activity">
 						<a class="lien_Hebergements" href="">
-						<div class="img_container_activity">
-							<img class="small_image size_image"
-								src="activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="" />
-						</div>
-						<div class="text_activity">
-							<b>Ile du frioul</b>
-						</div>
-					</a>
+							<div class="img_container_activity">
+								<img class="small_image size_image"
+									src="activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="" />
+							</div>
+							<div class="text_activity">
+								<b>Ile du frioul</b>
+							</div>
+						</a>
 					</div>
 				</div>
 				<div class="column">
 					<a class="lien_Hebergements" href="">
-					<div class="container_text_image_activity">
-						<div class="img_container_activity">
-							<img class="big_image size_image"
-								src="./activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="" />
+						<div class="container_text_image_activity">
+							<div class="img_container_activity">
+								<img class="big_image size_image"
+									src="./activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="" />
+							</div>
+							<div class="text_activity">
+								<b>Parc national des calanques</b>
+							</div>
 						</div>
-						<div class="text_activity">
-							<b>Parc national des calanques</b>
-						</div>
-					</div>
-				</a>
+					</a>
 				</div>
 				<div class="column">
 					<div class="container_text_image_activity">
 						<a class="lien_Hebergements" href="">
-						<div class="img_container_activity">
-							<img class="small_image size_image"
-								src="activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="" />
-						</div>
-						<div class="text_activity">
-							<b>Notre-dame-de-la-garde</b>
-						</div>
-					</a>
+							<div class="img_container_activity">
+								<img class="small_image size_image"
+									src="activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="" />
+							</div>
+							<div class="text_activity">
+								<b>Notre-dame-de-la-garde</b>
+							</div>
+						</a>
 					</div>
 					<div class="container_text_image_activity">
 						<a class="lien_Hebergements" href="">
-						<div class="img_container_activity">
-							<img class="midle_image size_image"
-								src="activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="" />
-						</div>
-						<div class="text_activity">
-							<b>Parc longchamp</b>
-						</div>
-					</a>
+							<div class="img_container_activity">
+								<img class="midle_image size_image"
+									src="activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="" />
+							</div>
+							<div class="text_activity">
+								<b>Parc longchamp</b>
+							</div>
+						</a>
 					</div>
 				</div>
 			</div>
