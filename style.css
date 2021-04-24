@@ -135,6 +135,7 @@ border-style: none;
 background-color: #0065fc;
 color:white;
 border-left:0;
+width: 80px;
 
 }
 
@@ -290,7 +291,7 @@ justify-content: space-around;
 
 .section_populaire
 {
-   flex: 0 1 25%;
+   flex: 0 1 27%;
     background-color:#F2F2F2;
     border-radius: 20px;
     display: flex;
@@ -313,6 +314,7 @@ justify-content: space-around;
 {
    flex:1 1 100%;
    margin-left: 30px;
+   margin-bottom: 10px;
 }
 
 
@@ -463,9 +465,10 @@ padding-top: 10px;
 
 .titre_hebergement_activité
 {
-    margin-bottom:10px;
+    margin-bottom:20px;
     padding-left: 25px;
-    margin-top: 10px;
+    margin-top: 50px;
+
 }
 
 .global_position_activity
@@ -536,18 +539,22 @@ padding-top: 10px;
 .Hypertext_footer
 {
     color: black;
+    width: 100px;
+    margin-top: 10px;
 }
-
+.footer_text
+{
+ margin: 40px;
+}
 .footer
-
 {
     flex: 1 1 100%;
-    
     background-color: #F2F2F2;
     margin-top: 50px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    height: 200px;
 }
 
 .footer_position
@@ -561,6 +568,12 @@ padding-top: 10px;
 {
   padding-bottom:8px;
 }
+.footer_space
+{
+    width: 300px;
+    margin-top: 10px;
+}
+
 
 
 @media screen and  (max-width:767px)
