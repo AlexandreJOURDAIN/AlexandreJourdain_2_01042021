@@ -268,11 +268,6 @@ a.lien_Hebergements
     padding: 0px;
 }
 
-article
-{
-justify-content: space-between;
-
-}
 
 .section_hebergements
 {flex: 0 1 70%;
@@ -668,6 +663,10 @@ padding-top: 10px;
             order:2;
         }
         /*display filter*/
+        .button_filter
+        {
+            margin-right: 40px;
+        }
         
         .position_filter
         {
