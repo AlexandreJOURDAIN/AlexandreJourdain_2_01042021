@@ -179,7 +179,7 @@ display: flex;
     border-width: 1px;
     padding-right: 5px;
     background-color: white;
-    border:1px solid  #deebff;
+    border:2px solid  #F2F2F2;
     margin-left: 10px;
     display: flex;
     align-items: center;
@@ -239,7 +239,7 @@ padding-top: 10px;
 
 border-radius:23px;
 padding: 4px 8px ;
-border:2px solid #deebff ;
+border:2px solid #F2F2F2 ;
 color: #0065fc;
 background-color:white;
 
@@ -289,17 +289,6 @@ justify-content: space-around;
    
 }
 
-.section_populaire
-{
-   flex: 0 1 27%;
-    background-color:#F2F2F2;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-
-    
-}
 
 .position_hebergement
 {
@@ -312,9 +301,9 @@ justify-content: space-around;
 .titre_hebergement
 
 {
-   flex:1 1 100%;
-   margin-left: 30px;
-   margin-bottom: 10px;
+    flex:1 1 100%;
+    margin-left: 30px;
+    margin-bottom: 10px;
 }
 
 
@@ -327,16 +316,16 @@ justify-content: space-around;
     background-color:white;
     text-align: left;
     font-size: 10px;
-padding: 3px;
-margin-bottom: 10px;
-height:37%;
-border-radius:10px;
+    padding: 3px;
+    margin-bottom: 10px;
+    height:37%;
+    border-radius:10px;
 }
 
 .img_cannebiére
 {
     width:100%;
-   
+    
 }
 
 .text_cannebiére
@@ -347,13 +336,13 @@ border-radius:10px;
 
 #change_color_star
 {
-    color: blue;
+    color:#0065fc;
     
 }
 
 .img_container
 {
-height: 100px;
+    height: 100px;
 overflow: hidden;
 align-items: center;
 display: flex;
@@ -363,6 +352,16 @@ border-top-right-radius: 10px;
 /*--les plus populaires*/
 
 
+.section_populaire
+{
+   flex: 0 1 27%;
+    background-color:#F2F2F2;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
 a.lien_Hebergements_pop
 {
     text-decoration:none;
@@ -457,6 +456,7 @@ padding-top: 10px;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
     flex: 30%;
+    margin: 5px;
 
 }
   
@@ -490,7 +490,7 @@ padding-top: 10px;
 {
 
     overflow: hidden;
-    border-radius: 30px 30px 0 0 ;
+    border-radius: 20px 20px 0 0 ;
 
 }
 
@@ -525,7 +525,7 @@ padding-top: 10px;
 .container_text_image_activity
 {
     box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.2);
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 /*footer*/
@@ -550,11 +550,10 @@ padding-top: 10px;
 {
     flex: 1 1 100%;
     background-color: #F2F2F2;
-    margin-top: 50px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    height: 200px;
+    margin-top: 50px;
 }
 
 .footer_position
@@ -577,219 +576,306 @@ padding-top: 10px;
 
 
 @media screen and  (max-width:767px)
+ {    
+
+     
+     /*global style*/
+     
+     h1
+     {
+         margin-bottom: 10px;
+         margin-top: 60px;
+        }
+        
+        
+        /*barre de recherche*/
+        .barre_recherche
+        {
+            justify-content: center;
+            margin-right: 50px;
+        }
+        
+        .buttton_researsh_loupe
+        {
+            border-radius: 11px;
+            height: 30px;
+            border-style: none;
+            background-color: #0065fc;
+            color:white;
+            border-left:0;
+            display: block;
+            width: 35px;
+        }
+        
+        .button_researsch_right
+        {
+            display: none;
+        }
+        
+        /*header*/
+        
+        nav>ul
+        {
+            justify-content: space-around;
+            width: 100%;
+            display: flex;
+        }
+        
+        nav>ul>li:nth-child(1)
+        {
+            position: absolute;
+            padding-top: 60px;
+            margin-right: 335px;
+            
+        }
+        nav>ul>li:nth-child(2)
+        {
+            position: absolute;
+            padding-top: 60px;
+            margin-left:50px ;
+        }
+        :hover.responsive_link
+        {
+            border-bottom: 1px solid #0065fc;
+            border-top: none;
+        }
+        
+        .change_hypertext
+        {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .change_hypertext1
+        {
+            font-size: 20px;
+            font-weight:inherit;
+        }
+        .inscrire_order
+        {
+            order:1; 
+            padding-left: 120px;
+        }
+        .hebergement_order
+        {
+            order:3;
+        }
+        .activités_order
+        {
+            order:2;
+        }
+        /*display filter*/
+        
+        .position_filter
+        {
+            margin-bottom: 10px;
+        }
+        
+        .display_filtre
+        {
+            flex-direction: column;
+        }
+        .text_section
+        {
+            margin-top: 30px;
+        }
+        .position_button
+        {
+            flex-direction: row;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .spacing_filter
+        {
+            margin: 5px;
+        }
+        /*global hebergements*/
+        
+        .global_position_activity
+        {
+            flex-direction: column;
+        }
+        .position_hebergement
+        
+        {
+            flex-direction:column-reverse;
+            padding: 0px;
+        }
+        
+        /*populaire*/
+        .img_soleil_du_matin
+        {
+            height: 140px;
+        }
+        .img_blanc
+        {
+            height: 320px;
+        }
+        .hotel_populaires
+        {
+            width:auto;
+            margin: 12px;
+        }
+        .section_populaire
+        {
+            margin-top:20px;
+            border-radius: 0px;
+        }
+        .titre_populaire>h2
+        {
+            padding-left: 20px;
+        }
+        .text_soleil_du_matin
+        {
+            font-size: 12px;
+        }
+        .star_position_soleil_du_matin
+        {
+            margin-top: 5px
+        }
+        /*hebergements Marseille*/
+        
+        .section_hebergements
+        
+        {
+            background-color:white;
+            flex-direction: column;
+            padding: 0px;
+            margin-top: 30px;
+        }
+        
+        .hotel_cannebiére
+        {
+            width: auto;
+            margin-top: 10px;
+            box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.2);
+            border-radius: 12px;
+            
+        }
+        
+        
+        /*activité à Marseille*/
+        
+        .global_position_activity
+        {
+            margin-bottom: 50px;
+        }
+        .titre_hebergement_activité
+        {
+            padding-left: 10px;
+        }
+        
+        .container_text_image_activity
+        {
+            margin-top:10px;
+        }
+        .column
+        {
+            padding: 0px;
+        }
+        .big_image
+        {
+            height: 100px;
+        }
+        .midle_image
+        {
+            height: 100px;
+        }
+        .small_image
+        {
+            height: 100px;
+        }
+        .big_image
+        {
+            height: 100px;
+        }
+        
+        /*footer*/
+        
+        .footer_position
+        {
+            flex-direction: column;
+        }
+        footer
+        {
+            flex: 1 1 100%;
+        }
+        
+        
+        .title_footer
+        {
+            padding-bottom: 15px;
+        }
+        
+        .footer_text
+        {
+            margin:20px;
+        }
+        
+    }
+        
+ @media screen and  (max-width:1023px)   {
+ /*position Hebergements*/
+ .position_hebergement
  {
-
- /*global style*/
- 
- h1
-{
-    margin-bottom: 10px;
-}
-
-
-/*barre de recherche*/
-.barre_recherche
-{
-    justify-content: center;
-    margin-right: 50px;
-}
-
-.buttton_researsh_loupe
-{
-    border-radius: 11px;
-height: 30px;
-border-style: none;
-background-color: #0065fc;
-color:white;
-border-left:0;
-display: block;
-width: 35px;
-}
-
-.button_researsch_right
-{
-display: none;
-}
-
-/*header*/
-
-nav>ul
-{
-    justify-content: space-around;
-    width: 100%;
-    display: flex;
-}
-
-nav>ul>li:nth-child(1)
-{
-    position: absolute;
-    padding-top: 50px;
-    margin-right: 260px;
-
-}
-nav>ul>li:nth-child(2)
-{
-    position: absolute;
-    padding-top: 50px;
-    margin-left:50px ;
-}
-:hover.responsive_link
-{
-    border-bottom: 1px solid #0065fc;
-    border-top: none;
-}
-
-.change_hypertext
-{
-    font-size: 20px;
-    font-weight: bold;
-}
-.change_hypertext1
-{
-    font-size: 20px;
-    font-weight:inherit;
-}
-.inscrire_order
-{
- order:1; 
- padding-left: 120px;
-}
-.hebergement_order
-{
- order:3;
-}
-.activités_order
-{
- order:2;
-}
-/*display filter*/
-
-.display_filtre
-{
  flex-direction: column;
 }
-.text_section
+/*Hébergement à marseille*/
+
+.section_hebergements
 {
-margin-top: 30px;
+    margin-bottom: 50px;
 }
-.position_button
+.titre_hebergement
 {
-    flex-direction: row;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+/*les plus populaires*/
+
+.titre_populaire
+{
+    display: flex;
+    justify-content: center;
+    
+}
+.changement_populaire
+{
+    padding-left: 20px;
 }
 
-.spacing_filter
+.section_populaire
 {
-margin: 5px;
+    display: flex;
+    align-items:left;
 }
-/*global hebergements*/
+/*position activity*/
 
 .global_position_activity
 {
-    flex-direction: column;
+flex-direction: column;
 }
-.position_hebergement
-
-{
-    flex-direction:column-reverse;
-    padding: 0px;
-}
-
-/*populaire*/
-.img_soleil_du_matin
-{
-    height: 140px;
-}
-.img_blanc
-{
-    height: 320px;
-}
-.hotel_populaires
-{
-    width:auto;
-    margin: 12px;
-}
-.section_populaire
-{
-    margin-top:20px;
-}
-
-/*hebergements Marseille*/
-
-.section_hebergements
-
-{
-    background-color:white;
-    flex-direction: column;
-    padding: 0px;
-    margin-top: 30px;
-}
-
-.hotel_cannebiére
-{
-    width: auto;
-    margin-top: 10px;
-}
-
-
-/*activité à Marseille*/
-
-
-.titre_hebergement_activité
-{
-    margin: 20px;
-}
-
 .container_text_image_activity
 {
-    margin-top:10px;
+    margin-top: 20px;
 }
-.column
-{
-    padding: 0px;
-}
-.big_image
-{
-    height: 100px;
-}
-.midle_image
-{
-    height: 100px;
-}
-.small_image
-{
-    height: 100px;
-}
-.big_image
-{
-    height: 100px;
-}
-
-/*footer*/
-
 .footer_position
-{
+{display: flex;
     flex-direction: column;
-}
-footer
-{
-    flex: 1 1 100%;
-    height: auto;
+    flex: 100%;
+    align-items: center;
 }
 
 
-.title_footer
-{
-    padding-bottom: 15px;
-}
 
-.footer_text
-{
-    margin:20px;
-}
 
-}
-    
+
+
+
+
+
+
+
   
 
