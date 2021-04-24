@@ -80,6 +80,10 @@ a:hover
     color:#0065fc;
     
  }
+ .inscrire_text
+ {
+     font-weight: bold;
+ }
 
  .change_hypertext
  {
@@ -815,6 +819,14 @@ padding-top: 10px;
     }
         
  @media screen and  (max-width:1023px)   {
+/*barre de recherche*/
+    .barre_recherche
+    {
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+
+    }
  /*position Hebergements*/
  .position_hebergement
  {
@@ -850,6 +862,10 @@ padding-top: 10px;
     display: flex;
     align-items:left;
 }
+.img_eau
+{
+    height: 100px;
+}
 /*position activity*/
 
 .global_position_activity
@@ -862,9 +878,10 @@ flex-direction: column;
 }
 .footer_position
 {display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex: 100%;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 
