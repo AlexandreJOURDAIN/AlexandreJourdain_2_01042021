@@ -1,910 +1,690 @@
 /*header*/
 /* --- global style --- */
 
-*
-{
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
-    
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
-a
-{
-    text-decoration: none;
+a {
+	text-decoration: none;
 }
 
-
-button:hover
-{
-    background-color:#d9d9d9;
-    text-decoration: none;
+button:hover {
+	background-color: #d9d9d9;
+	text-decoration: none;
 }
 
-
-body
-{
-    font-family: "Raleway",sans-serif ;
-    margin: O;
+body {
+	font-family: "Raleway", sans-serif;
+	margin: O;
 }
 
-h1
-{
-    font-size: 20px;
-    font-style: bold;
+h1 {
+	font-size: 20px;
+	font-style: bold;
 }
 
-li
-{
-    list-style: none;
+li {
+	list-style: none;
 }
 
-
-
-header
-{
-    height: 50px;
-    width: 100%;
+header {
+	height: 50px;
+	width: 100%;
 }
 
-nav
-{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+nav {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
 }
 
-nav ul
-{
-    display:flex;
+nav ul {
+	display: flex;
 }
 
-
-nav li
-{
-    margin: 0 10px 0 20px;
-    padding-top: 11px;
+nav li {
+	margin: 0 10px 0 20px;
+	padding-top: 11px;
 }
 
-a:hover
-{
-    color:#0065fc;
-    border-top: 1px solid;
-    padding-top: 10px;
+a:hover {
+	color: #0065fc;
+	border-top: 1px solid;
+	padding-top: 10px;
 }
-
 
 /* --- menu nav header --- */
 
-.change_color
-{
-    color:#0065fc;
-    
- }
- .inscrire_text
- {
-     font-weight: bold;
- }
+.change_color {
+	color: #0065fc;
+}
+.inscrire_text {
+	font-weight: bold;
+}
 
- .change_hypertext
- {
-     text-decoration: none;
-     color:#0065fc;
-     
- }
- .change_hypertext1
- {
-     text-decoration: none;
-     color:black;
- }
+.change_hypertext {
+	text-decoration: none;
+	color: #0065fc;
+}
+.change_hypertext1 {
+	text-decoration: none;
+	color: black;
+}
 
- .logo-header
- {
-     display: flex;
- }
-
+.logo-header {
+	display: flex;
+}
 
 /* -- filtre barre de recherche --*/
-.barre_recherche
-{
-    margin-top: 15px;
-    margin-bottom: 20px;
-    display: flex;
+.barre_recherche {
+	margin-top: 15px;
+	margin-bottom: 20px;
+	display: flex;
 }
-::placeholder
-{
-color: black;
-font-weight: bolder;
-}
-    
-.button_researsch_left
-{
-
-border-top-left-radius: 11px;
-border-bottom-left-radius: 11px;
-height: 30px;
-width: 35px;
-border-style: none;
-pointer-events: none;
-
+::placeholder {
+	color: black;
+	font-weight: bolder;
 }
 
-.button_researsch_right
-
-{
-
-border-top-right-radius: 11px;
-border-bottom-right-radius: 11px;
-height: 30px;
-border-style: none;
-background-color: #0065fc;
-color:white;
-border-left:0;
-width: 80px;
-
+.button_researsch_left {
+	border-top-left-radius: 11px;
+	border-bottom-left-radius: 11px;
+	height: 30px;
+	width: 35px;
+	border-style: none;
+	pointer-events: none;
 }
 
-.buttton_researsh_loupe
-{
-    display:none
-}
-.input_researsch
-{
-    height: 30px;
-    padding: Opx;
-    margin: 0px;
-    border-style: none;
-    border: 1px solid #deebff;
-    border-left: none;
-    border-right: none;
+.button_researsch_right {
+	border-top-right-radius: 11px;
+	border-bottom-right-radius: 11px;
+	height: 30px;
+	border-style: none;
+	background-color: #0065fc;
+	color: white;
+	border-left: 0;
+	width: 80px;
 }
 
+.buttton_researsh_loupe {
+	display: none;
+}
+.input_researsch {
+	height: 30px;
+	padding: Opx;
+	margin: 0px;
+	border-style: none;
+	border: 1px solid #deebff;
+	border-left: none;
+	border-right: none;
+}
 
-
-.display_recherche
-{
-display: flex;
+.display_recherche {
+	display: flex;
 }
 
 /* --- filtres --- */
 
-.display_filtre
-{
-    display: flex;
-    justify-content: left;
+.display_filtre {
+	display: flex;
+	justify-content: left;
 }
 
-
-
-.button_filter 
-{
-    border-radius: 30px; 
-    justify-content: space-between;
-    padding:0;
-    border-width: 1px;
-    padding-right: 5px;
-    background-color: white;
-    border:2px solid  #F2F2F2;
-    margin-left: 10px;
-    display: flex;
-    align-items: center;
+.button_filter {
+	border-radius: 30px;
+	justify-content: space-between;
+	padding: 0;
+	border-width: 1px;
+	padding-right: 5px;
+	background-color: white;
+	border: 2px solid #f2f2f2;
+	margin-left: 10px;
+	display: flex;
+	align-items: center;
 }
 
-.icon_filter 
-{
-color: #0065fc;
+.icon_filter {
+	color: #0065fc;
 }
 
-.circle_filter
-{
-  border-radius: 30px;
-  background-color:#deebff;
-  border: 2px solid none;
-  height: 27px;
-  width:27px;
-  margin-right: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: -1px;
+.circle_filter {
+	border-radius: 30px;
+	background-color: #deebff;
+	border: 2px solid none;
+	height: 27px;
+	width: 27px;
+	margin-right: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: -1px;
 }
 
-.spacing_filter
-{
-    margin-left: 15px;
-    font-size: 17px;
-    display: flex;
+.spacing_filter {
+	margin-left: 15px;
+	font-size: 17px;
+	display: flex;
 }
 
-.position_filter
-{
-padding-top: 5px;
+.position_filter {
+	padding-top: 5px;
 }
-.position_button
-{
-    display: flex;
+.position_button {
+	display: flex;
 }
 
-.number_logements
-{
-    display:flex;
-    align-items: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 11px;
-
+.number_logements {
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 11px;
 }
-.number_logements>i
-{
-    margin-right:10px;
-    
+.number_logements > i {
+	margin-right: 10px;
 }
-.icon_logements
-{
-
-border-radius:23px;
-padding: 4px 8px ;
-border:2px solid #F2F2F2 ;
-color: #0065fc;
-background-color:white;
-
-
+.icon_logements {
+	border-radius: 23px;
+	padding: 4px 8px;
+	border: 2px solid #f2f2f2;
+	color: #0065fc;
+	background-color: white;
 }
-
-
 
 /*display hotel hebergement à Marseille*/
-a.lien_Hebergements
-{
-    text-decoration:none;
-    color: black;
-    
+a.lien_Hebergements {
+	text-decoration: none;
+	color: black;
 }
-.lien_Hebergements:hover
-{
-    color: #0065fc;
-    border: 0px;
-    border-style:none ;
-    margin: 0px;
-    padding: 0px;
+.lien_Hebergements:hover {
+	color: #0065fc;
+	border: 0px;
+	border-style: none;
+	margin: 0px;
+	padding: 0px;
 }
 
-
-.section_hebergements
-{flex: 0 1 70%;
-background-color:#F2F2F2;
-border-radius: 20px;
-display: flex;
-flex-wrap: wrap;
-padding: 20px;
-justify-content: space-around;
-
-
+.section_hebergements {
+	flex: 0 1 70%;
+	background-color: #f2f2f2;
+	border-radius: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px;
+	justify-content: space-around;
 }
 
-.section_hebergements > p
-
-{
-   flex: 1 1 100%;
-   
+.section_hebergements > p {
+	flex: 1 1 100%;
 }
 
-
-.position_hebergement
-{
-    display:flex;
-    justify-content: space-between;
-    
-    
+.position_hebergement {
+	display: flex;
+	justify-content: space-between;
 }
 
-.titre_hebergement
-
-{
-    flex:1 1 100%;
-    margin-left: 30px;
-    margin-bottom: 10px;
+.titre_hebergement {
+	flex: 1 1 100%;
+	margin-left: 30px;
+	margin-bottom: 10px;
 }
 
-
-
-.hotel_cannebiére
-
-{
-    
-    width: 27%;
-    background-color:white;
-    text-align: left;
-    font-size: 10px;
-    padding: 3px;
-    margin-bottom: 10px;
-    height:37%;
-    border-radius:10px;
+.hotel_cannebiére {
+	width: 27%;
+	background-color: white;
+	text-align: left;
+	font-size: 10px;
+	padding: 3px;
+	margin-bottom: 10px;
+	height: 37%;
+	border-radius: 10px;
 }
 
-.img_cannebiére
-{
-    width:100%;
-    
+.img_cannebiére {
+	width: 100%;
 }
-.titre_Auberge
-{
- margin-bottom: 6px;
+.titre_Auberge {
+	margin-bottom: 6px;
 }
-.text_cannebiére
-{
-    
-    padding: 5px;
-    margin: 5px;
+.text_cannebiére {
+	padding: 5px;
+	margin: 5px;
 }
-.price_night
-{
-padding-bottom:6px
+.price_night {
+	padding-bottom: 6px;
 }
 
-#change_color_star
-{
-    color:#0065fc;
-    
+#change_color_star {
+	color: #0065fc;
 }
 
-.img_container
-{
-    height: 100px;
-overflow: hidden;
-align-items: center;
-display: flex;
-border-top-left-radius: 10px;
-border-top-right-radius: 10px;
+.img_container {
+	height: 100px;
+	overflow: hidden;
+	align-items: center;
+	display: flex;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 }
 /*--les plus populaires*/
 
-
-.section_populaire
-{
-   flex: 0 1 27%;
-    background-color:#F2F2F2;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-
+.section_populaire {
+	flex: 0 1 27%;
+	background-color: #f2f2f2;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 }
-a.lien_Hebergements_pop
-{
-    text-decoration:none;
-    color: black;
-    display: flex;
-    
+a.lien_Hebergements_pop {
+	text-decoration: none;
+	color: black;
+	display: flex;
 }
-.lien_Hebergements_pop:hover
-{
-    color: #0065fc;
-    border: 0px;
-    border-style:none ;
-    margin: 0px;
-    padding: 0px;
+.lien_Hebergements_pop:hover {
+	color: #0065fc;
+	border: 0px;
+	border-style: none;
+	margin: 0px;
+	padding: 0px;
 }
 
-.titre_populaire
-{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 15px;
-    padding-bottom: 10px;
-    align-items: center;
+.titre_populaire {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+	padding-bottom: 10px;
+	align-items: center;
 }
 
-.titre_populaire>h2
-
-{
-    padding-left: 40px;
-
+.titre_populaire > h2 {
+	padding-left: 40px;
 }
-.changement_populaire
-{
-    padding-right:20px ;
+.changement_populaire {
+	padding-right: 20px;
 }
 
-.hotel_populaires
-{
-    width: 75%;
-    height: 33%;
-    background-color:white;
-    text-align: left;
-    font-size: 8px;
-border-radius: 8px;
-margin:15px;
-margin-left: 33px;
-display: flex;
-padding:3px;
-align-items: center;
-
+.hotel_populaires {
+	width: 75%;
+	height: 33%;
+	background-color: white;
+	text-align: left;
+	font-size: 8px;
+	border-radius: 8px;
+	margin: 15px;
+	margin-left: 33px;
+	display: flex;
+	padding: 3px;
+	align-items: center;
 }
 
-.img_soleil_du_matin
-{
-   height: 120px;
+.img_soleil_du_matin {
+	height: 120px;
 }
-.img_eau
-{
- height: 120px;
- 
+.img_eau {
+	height: 120px;
 }
-.img_blanc
-{
-height: 240px;
+.img_blanc {
+	height: 240px;
 }
-.text_soleil_du_matin
-{
-    padding:8px;
-    flex: 40%;
-    
+.text_soleil_du_matin {
+	padding: 8px;
+	flex: 40%;
 }
 
-.star_position_soleil_du_matin
-
-{
-margin-top: 35px;
+.star_position_soleil_du_matin {
+	margin-top: 35px;
 }
 
-.titre_soleil_du_matin
-{
-    margin-bottom: 10px;
-    font-size: 12px;
+.titre_soleil_du_matin {
+	margin-bottom: 10px;
+	font-size: 12px;
 }
 
-
-.img_container_populaire
-{ 
-
-    height: 100px;
-    overflow: hidden;
-    align-items: center;
-    display: flex;
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
-    flex: 30%;
-    margin: 5px;
-
+.img_container_populaire {
+	height: 100px;
+	overflow: hidden;
+	align-items: center;
+	display: flex;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+	flex: 30%;
+	margin: 5px;
 }
-  
 
 /*--Position Activité*/
 
-.titre_hebergement_activité
-{
-    margin-bottom:20px;
-    padding-left: 25px;
-    margin-top: 50px;
-
+.titre_hebergement_activité {
+	margin-bottom: 20px;
+	padding-left: 25px;
+	margin-top: 50px;
 }
 
-.global_position_activity
-{
-    display: flex;
-    padding: 0 4px;
+.global_position_activity {
+	display: flex;
+	padding: 0 4px;
 }
 
-.column
-{
-    flex: 0 0 25%;
-    padding: 0 20px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+.column {
+	flex: 0 0 25%;
+	padding: 0 20px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
 }
 
-.img_container_activity
-{
-
-    overflow: hidden;
-    border-radius: 20px 20px 0 0 ;
-
+.img_container_activity {
+	overflow: hidden;
+	border-radius: 20px 20px 0 0;
 }
 
-.size_image
-{
-    width: 100%;
-    object-fit: cover;
+.size_image {
+	width: 100%;
+	object-fit: cover;
 }
 
-.big_image
-{ 
-    height: 400px;
-
+.big_image {
+	height: 400px;
 }
 
-.midle_image
-{
-    height: 170px;
+.midle_image {
+	height: 170px;
 }
 
-.small_image
-{
-    height: 140px;
+.small_image {
+	height: 140px;
 }
 
-
-.text_activity
-{
- padding:10px 20px;
-
+.text_activity {
+	padding: 10px 20px;
 }
-.container_text_image_activity
-{
-    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.2);
-    border-radius: 20px;
+.container_text_image_activity {
+	box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.2);
+	border-radius: 20px;
 }
 
 /*footer*/
-.Hypertext_footer:hover
-{
-    color: black;
-    text-decoration: none;
-    border-top: none;
-    color:#0065fc;
+.Hypertext_footer:hover {
+	color: black;
+	text-decoration: none;
+	border-top: none;
+	color: #0065fc;
 }
-.Hypertext_footer
-{
-    color: black;
-    width: 100px;
-    margin-top: 10px;
+.Hypertext_footer {
+	color: black;
+	width: 100px;
+	margin-top: 10px;
 }
-.footer_text
-{
- margin: 40px;
+.footer_text {
+	margin: 40px;
 }
-.footer
-{
-    flex: 1 1 100%;
-    background-color: #F2F2F2;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top: 50px;
+.footer {
+	flex: 1 1 100%;
+	background-color: #f2f2f2;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-top: 50px;
 }
 
-.footer_position
-{ 
-   display: flex;
-   width: 80%;
-   justify-content: space-between;
+.footer_position {
+	display: flex;
+	width: 80%;
+	justify-content: space-between;
 }
 
-.title_footer
-{
-  padding-bottom:8px;
+.title_footer {
+	padding-bottom: 8px;
 }
-.footer_space
-{
-    width: 300px;
-    margin-top: 10px;
+.footer_space {
+	width: 300px;
+	margin-top: 10px;
 }
 
+@media screen and (max-width: 767px) {
+	/*global style*/
 
+	h1 {
+		margin-bottom: 10px;
+		margin-top: 60px;
+	}
 
-@media screen and  (max-width:767px)
- {    
+	/*barre de recherche*/
+	.barre_recherche {
+		justify-content: center;
+		margin-right: 50px;
+	}
 
-     
-     /*global style*/
-     
-     h1
-     {
-         margin-bottom: 10px;
-         margin-top: 60px;
-        }
-        
-        
-        /*barre de recherche*/
-        .barre_recherche
-        {
-            justify-content: center;
-            margin-right: 50px;
-        }
-        
-        .buttton_researsh_loupe
-        {
-            border-radius: 11px;
-            height: 30px;
-            border-style: none;
-            background-color: #0065fc;
-            color:white;
-            border-left:0;
-            display: block;
-            width: 35px;
-        }
-        
-        .button_researsch_right
-        {
-            display: none;
-        }
-        
-        /*header*/
-        
-        nav>ul
-        {
-            justify-content: space-around;
-            width: 100%;
-            display: flex;
-        }
-        
-        nav>ul>li:nth-child(1)
-        {
-            position: absolute;
-            padding-top: 60px;
-            margin-right: 260px;
-            
-        }
-        nav>ul>li:nth-child(2)
-        {
-            position: absolute;
-            padding-top: 60px;
-            margin-left:70px ;
-        }
-        :hover.responsive_link
-        {
-            border-bottom: 1px solid #0065fc;
-            border-top: none;
-        }
-        
-        .change_hypertext
-        {
-            font-size: 17px;
-            font-weight: bold;
-        }
-        .change_hypertext1
-        {
-            font-size: 17px;
-            font-weight:inherit;
-        }
-        .inscrire_order
-        {
-            order:1; 
-            padding-left: 120px;
-        }
-        .hebergement_order
-        {
-            order:3;
-        }
-        .activités_order
-        {
-            order:2;
-        }
-        /*display filter*/
-        .button_filter
-        {
-            margin-right: 40px;
-        }
-        
-        .position_filter
-        {
-            margin-bottom: 10px;
-        }
-        
-        .display_filtre
-        {
-            flex-direction: column;
-        }
-        .text_section
-        {
-            margin-top: 30px;
-        }
-        .position_button
-        {
-            flex-direction: row;
-            display: flex;
-            flex-wrap: wrap;
-        }
-        
-        .spacing_filter
-        {
-            margin: 5px;
-        }
-        /*global hebergements*/
-        
-        .global_position_activity
-        {
-            flex-direction: column;
-        }
-        .position_hebergement
-        
-        {
-            display: flex;
-            flex-direction:column-reverse;
-            padding: 0px;
-        }
-        
-        /*populaire*/
-        .img_soleil_du_matin
-        {
-            height: 140px;
-        }
-        .img_blanc
-        {
-            height: 320px;
-        }
-        .hotel_populaires
-        {
-            width:auto;
-            margin: 12px;
-        }
-        .section_populaire
-        {
-            margin-top:20px;
-            border-radius: 0px;
-        }
-        .titre_populaire>h2
-        {
-            padding-left: 20px;
-            
-        }
-        .text_soleil_du_matin
-        {
-            font-size: 12px;
-        }
-        .star_position_soleil_du_matin
-        {
-            margin-top: 5px
-        }
-        /*hebergements Marseille*/
-        
-        .section_hebergements
-        
-        {
-            background-color:white;
-            flex-direction: column;
-            padding: 0px;
-            margin-top: 30px;
-        }
-        
-        .hotel_cannebiére
-        {
-            width: auto;
-            margin-top: 10px;
-            box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.2);
-            border-radius: 12px;
-            
-        }
-        
-        
-        /*activité à Marseille*/
-        
-        .global_position_activity
-        {
-            margin-bottom: 50px;
-        }
-        .titre_hebergement_activité
-        {
-            padding-left: 10px;
-        }
-        
-        .container_text_image_activity
-        {
-            margin-top:10px;
-        }
-        .column
-        {
-            padding: 0px;
-        }
-        .big_image
-        {
-            height: 100px;
-        }
-        .midle_image
-        {
-            height: 100px;
-        }
-        .small_image
-        {
-            height: 100px;
-        }
-        .big_image
-        {
-            height: 100px;
-        }
-        
-        /*footer*/
-        
-        .footer_position
-        {
-            flex-direction: column;
-        }
-        footer
-        {
-            flex: 1 1 100%;
-        }
-        
-        
-        .title_footer
-        {
-            padding-bottom: 15px;
-        }
-        
-        .footer_text
-        {
-            margin:20px;
-        }
-        
-    }
-        
- @media screen and  (max-width:1023px)   {  
-/*barre de recherche*/
-    .barre_recherche
-    {
-        display: flex;
-        justify-content: center;
-        margin: 20px;
+	.buttton_researsh_loupe {
+		border-radius: 11px;
+		height: 30px;
+		border-style: none;
+		background-color: #0065fc;
+		color: white;
+		border-left: 0;
+		display: block;
+		width: 35px;
+	}
 
-    }
- 
-/*Hébergement à marseille*/
-.position_hebergement
-{
-    display: flex;
-    flex-direction: column-reverse;
-}
-.section_hebergements
-{
-    margin-bottom: 50px;
-    margin-top: 20px;
-}
-.titre_hebergement
-{
-    display: flex;
-    margin-bottom: 20px;
-}
-/*les plus populaires*/
+	.button_researsch_right {
+		display: none;
+	}
 
-.titre_populaire
-{
-    display: flex;
-    
-}
-.changement_populaire
-{
-    padding-left: 20px;
+	/*header*/
+
+	nav > ul {
+		justify-content: space-around;
+		width: 100%;
+		display: flex;
+	}
+
+	nav > ul > li:nth-child(1) {
+		position: absolute;
+		padding-top: 60px;
+		margin-right: 260px;
+	}
+	nav > ul > li:nth-child(2) {
+		position: absolute;
+		padding-top: 60px;
+		margin-left: 70px;
+	}
+	:hover.responsive_link {
+		border-bottom: 1px solid #0065fc;
+		border-top: none;
+	}
+
+	.change_hypertext {
+		font-size: 17px;
+		font-weight: bold;
+	}
+	.change_hypertext1 {
+		font-size: 17px;
+		font-weight: inherit;
+	}
+	.inscrire_order {
+		order: 1;
+		padding-left: 160px;
+	}
+	.hebergement_order {
+		order: 3;
+	}
+	.activités_order {
+		order: 2;
+	}
+	/*display filter*/
+	.button_filter {
+		margin-right: 40px;
+	}
+
+	.position_filter {
+		margin-bottom: 10px;
+	}
+
+	.display_filtre {
+		flex-direction: column;
+	}
+	.text_section {
+		margin-top: 30px;
+	}
+	.position_button {
+		flex-direction: row;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.spacing_filter {
+		margin: 5px;
+	}
+	/*global hebergements*/
+
+	.global_position_activity {
+		flex-direction: column;
+	}
+	.position_hebergement {
+		display: flex;
+		flex-direction: column-reverse;
+		padding: 0px;
+	}
+
+	/*populaire*/
+	.img_soleil_du_matin {
+		height: 140px;
+	}
+	.img_blanc {
+		height: 320px;
+	}
+	.hotel_populaires {
+		width: auto;
+		margin: 12px;
+	}
+	.section_populaire {
+		margin-top: 20px;
+		border-radius: 0px;
+	}
+	.titre_populaire > h2 {
+		padding-left: 20px;
+	}
+	.text_soleil_du_matin {
+		font-size: 12px;
+	}
+	.star_position_soleil_du_matin {
+		margin-top: 5px;
+	}
+	/*hebergements Marseille*/
+
+	.section_hebergements {
+		background-color: white;
+		flex-direction: column;
+		padding: 0px;
+		margin-top: 30px;
+	}
+
+	.hotel_cannebiére {
+		width: auto;
+		margin-top: 10px;
+		box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.2);
+		border-radius: 12px;
+	}
+
+	/*activité à Marseille*/
+
+	.global_position_activity {
+		margin-bottom: 50px;
+	}
+	.titre_hebergement_activité {
+		padding-left: 10px;
+	}
+
+	.container_text_image_activity {
+		margin-top: 10px;
+	}
+	.column {
+		padding: 0px;
+	}
+	.big_image {
+		height: 100px;
+	}
+	.midle_image {
+		height: 100px;
+	}
+	.small_image {
+		height: 100px;
+	}
+	.big_image {
+		height: 100px;
+	}
+
+	/*footer*/
+
+	.footer_position {
+		flex-direction: column;
+	}
+	footer {
+		flex: 1 1 100%;
+	}
+
+	.title_footer {
+		padding-bottom: 15px;
+	}
+
+	.footer_text {
+		margin: 20px;
+	}
 }
 
-.section_populaire
-{
-    display: flex;
-    align-items:left;
-    
+@media screen and (max-width: 1023px) {
+	/*barre de recherche*/
+	.barre_recherche {
+		display: flex;
+		justify-content: center;
+		margin: 20px;
+	}
+
+	/*Hébergement à marseille*/
+	.position_hebergement {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.section_hebergements {
+		margin-bottom: 50px;
+		margin-top: 20px;
+	}
+	.titre_hebergement {
+		display: flex;
+		margin-bottom: 20px;
+	}
+	/*les plus populaires*/
+
+	.titre_populaire {
+		display: flex;
+	}
+	.changement_populaire {
+		padding-left: 20px;
+	}
+
+	.section_populaire {
+		display: flex;
+		align-items: left;
+	}
+	.img_eau {
+		height: 110px;
+	}
+	/*position activity*/
+
+	.global_position_activity {
+		flex-direction: column;
+		display: flex;
+	}
+	.container_text_image_activity {
+		margin-top: 20px;
+	}
+	.footer_position {
+		display: flex;
+		flex-direction: row;
+		flex: 100%;
+		align-items: center;
+		flex-wrap: wrap;
+	}
 }
-.img_eau
-{
-    height: 110px;
-}
-/*position activity*/
-
-.global_position_activity
-{
-flex-direction: column;
-display: flex;
-}
-.container_text_image_activity
-{
-    margin-top: 20px;
-}
-.footer_position
-{display: flex;
-    flex-direction: row;
-    flex: 100%;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-}
-
-
-
-
-
-
-
-
-
-
-  
-
