@@ -710,7 +710,8 @@ margin-top: 35px;
         .position_hebergement
         
         {
-            flex-direction:row;
+            display: flex;
+            flex-direction:column-reverse;
             padding: 0px;
         }
         
@@ -736,6 +737,7 @@ margin-top: 35px;
         .titre_populaire>h2
         {
             padding-left: 20px;
+            
         }
         .text_soleil_du_matin
         {
@@ -826,7 +828,7 @@ margin-top: 35px;
         
     }
         
- @media screen and  (max-width:1023px)   {
+ @media screen and  (max-width:1023px)   {  
 /*barre de recherche*/
     .barre_recherche
     {
@@ -835,21 +837,21 @@ margin-top: 35px;
         margin: 20px;
 
     }
- /*position Hebergements*/
- .position_hebergement
- {
- flex-direction: column;
-}
+ 
 /*Hébergement à marseille*/
-
+.position_hebergement
+{
+    display: flex;
+    flex-direction: column-reverse;
+}
 .section_hebergements
 {
     margin-bottom: 50px;
+    margin-top: 20px;
 }
 .titre_hebergement
 {
     display: flex;
-    justify-content: center;
     margin-bottom: 20px;
 }
 /*les plus populaires*/
@@ -857,7 +859,6 @@ margin-top: 35px;
 .titre_populaire
 {
     display: flex;
-    justify-content: center;
     
 }
 .changement_populaire
@@ -869,16 +870,18 @@ margin-top: 35px;
 {
     display: flex;
     align-items:left;
+    
 }
 .img_eau
 {
-    height: 100px;
+    height: 110px;
 }
 /*position activity*/
 
 .global_position_activity
 {
 flex-direction: column;
+display: flex;
 }
 .container_text_image_activity
 {
@@ -892,6 +895,7 @@ flex-direction: column;
     flex-wrap: wrap;
 }
 
+}
 
 
 
