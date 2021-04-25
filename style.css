@@ -217,7 +217,7 @@ color: #0065fc;
 
 .position_filter
 {
-padding-top: 10px;
+padding-top: 5px;
 }
 .position_button
 {
@@ -326,11 +326,19 @@ justify-content: space-around;
     width:100%;
     
 }
-
+.titre_Auberge
+{
+ margin-bottom: 6px;
+}
 .text_cannebiére
 {
     
     padding: 5px;
+    margin: 5px;
+}
+.price_night
+{
+padding-bottom:6px
 }
 
 #change_color_star
@@ -436,12 +444,13 @@ height: 240px;
 .star_position_soleil_du_matin
 
 {
-padding-top: 10px;
+margin-top: 35px;
 }
 
 .titre_soleil_du_matin
 {
     margin-bottom: 10px;
+    font-size: 12px;
 }
 
 
@@ -624,14 +633,14 @@ padding-top: 10px;
         {
             position: absolute;
             padding-top: 60px;
-            margin-right: 335px;
+            margin-right: 260px;
             
         }
         nav>ul>li:nth-child(2)
         {
             position: absolute;
             padding-top: 60px;
-            margin-left:50px ;
+            margin-left:70px ;
         }
         :hover.responsive_link
         {
@@ -641,12 +650,12 @@ padding-top: 10px;
         
         .change_hypertext
         {
-            font-size: 20px;
+            font-size: 17px;
             font-weight: bold;
         }
         .change_hypertext1
         {
-            font-size: 20px;
+            font-size: 17px;
             font-weight:inherit;
         }
         .inscrire_order
@@ -701,7 +710,7 @@ padding-top: 10px;
         .position_hebergement
         
         {
-            flex-direction:column-reverse;
+            flex-direction:row;
             padding: 0px;
         }
         
