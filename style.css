@@ -672,6 +672,55 @@ a.lien_Hebergements_pop {
 	}
 }
 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) { 
+/*Hébergement à marseille*/
+    .position_hebergement {
+        display: flex;
+		flex-direction: column-reverse;
+	}
+    .section_hebergements {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    /*barre de recherche*/
+	.barre_recherche {
+        display: flex;
+		justify-content: center;
+		margin: 20px;
+	}
+    /*les plus populaires*/
+    
+	.titre_populaire {
+        display: flex;
+	}
+	.changement_populaire {
+        padding-left: 20px;
+	}
+    
+	.section_populaire {
+        display: flex;
+		align-items: left;
+	}
+	.img_eau {
+        height: 110px;
+	}
+/*position activity*/
+    .global_position_activity {
+        flex-direction: column;
+		display: flex;
+	}
+/* footer */
+    .footer_position {
+        display: flex;
+		flex-direction: row;
+		flex: 100%;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+
+
+}
 
 
 
