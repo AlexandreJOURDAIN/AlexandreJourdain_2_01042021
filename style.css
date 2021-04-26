@@ -46,6 +46,7 @@ a:hover {
 	padding-top: 10px;
 }
 
+
 /* --- menu nav header --- */
 
 .container_navbar
@@ -87,7 +88,10 @@ nav
 	text-decoration: none;
 	color: black;
 }
-
+:hover.inscrire_order
+{
+padding-top: 0px;
+}
 
 /* -- filtre barre de recherche --*/
 .barre_recherche {
@@ -471,27 +475,44 @@ a.lien_Hebergements_pop {
 
 	.buttton_researsh_loupe {
 		border-radius: 11px;
-		height: 30px;
+		height: 40px;
 		border-style: none;
 		background-color: #0065fc;
 		color: white;
 		border-left: 0;
 		display: block;
-		width: 35px;
+		width: 40px;
 	}
 
 	.button_researsch_right {
 		display: none;
+        
 	}
+    .button_researsch_left
+    {
+        height: 40px;
+        width: 40px;
+    }
+    .input_researsch
+    {
+        height:40px;
+    }
+    
 
 	/*header*/
 
-	
+	.hebergement_order
+    {
+        padding-left: 30px;
+    }
+    .activités_order
+    {
+        padding-left: 40px;
+    }
     nav 
     {
         width: 100%;
         padding-top: 50px;
-        padding-left: 50px;
         border-bottom: 3px solid #d9d9d9;
         padding-bottom: 10px;
     }
@@ -548,6 +569,12 @@ a.lien_Hebergements_pop {
 	.spacing_filter {
 		margin: 5px;
 	}
+
+    .circle_filter
+    {
+        height: 40px;
+        width: 40px;
+    }
 	/*global hebergements*/
 
 	.global_position_activity {
@@ -646,6 +673,12 @@ a.lien_Hebergements_pop {
 }
 
 @media screen and (max-width: 1023px) {
+    /*header*/
+    .nav_bar
+    {
+        margin-right: 40px;
+    }
+
 	/*barre de recherche*/
 	.barre_recherche {
 		display: flex;
