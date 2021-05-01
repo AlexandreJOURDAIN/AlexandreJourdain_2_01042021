@@ -17,38 +17,41 @@ button:hover {
 
 body {
 	font-family: "Raleway", sans-serif;
-	margin: O;
+	margin:0px;
 }
 
 h1 {
 	font-size: 20px;
-	font-style: bold;
+    font-weight: bold;
 }
 
 li {
 	list-style: none;
 }
 
-
 /* --- menu nav header --- */
 
+header {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
 nav li {
-    margin: 0 10px 0 20px; 
-    padding-top: 15px;
+	margin: 0 10px 0 20px;
+	padding-top: 15px;
 }
 
 .container_navbar h1 {
-
-  flex-grow: 1;
+	flex-grow: 1;
 }
 nav {
 	display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
+	flex-wrap: wrap;
+	justify-content: flex-end;
 }
 .nav_bar {
 	display: flex;
-    margin-right: 20px;
+	margin-right: 20px;
 }
 
 .change_color {
@@ -63,16 +66,14 @@ nav {
 .change_hypertext:hover {
 	text-decoration: none;
 	color: #0065fc;
-    border-top: 1px solid;
+	border-top: 1px solid;
 	padding-top: 13px;
-
 }
 .change_hypertext1:hover {
 	text-decoration: none;
 	color: #0065fc;
-    border-top: 1px solid;
+	border-top: 1px solid;
 	padding-top: 13px;
-
 }
 .change_hypertext1 {
 	text-decoration: none;
@@ -83,6 +84,11 @@ nav {
 }
 
 /* -- filtre barre de recherche --*/
+
+.global_section_research {
+	margin-right: 40px;
+	margin-left: 40px;
+}
 .barre_recherche {
 	margin-top: 15px;
 	margin-bottom: 20px;
@@ -228,6 +234,8 @@ a.lien_Hebergements {
 .position_hebergement {
 	display: flex;
 	justify-content: space-between;
+	margin-right: 40px;
+	margin-left: 40px;
 }
 
 .titre_hebergement {
@@ -361,6 +369,10 @@ a.lien_Hebergements_pop {
 
 /*--Position Activité*/
 
+.big-position_activity {
+	margin-left: 20px;
+	margin-right: 20px;
+}
 .titre_hebergement_activité {
 	margin-bottom: 20px;
 	padding-left: 25px;
@@ -449,9 +461,11 @@ a.lien_Hebergements_pop {
 }
 
 @media screen and (max-width: 767px) {
-	
-
 	/*barre de recherche*/
+
+	.global_section_research {
+		margin: unset;
+	}
 	.barre_recherche {
 		justify-content: center;
 		margin-right: 50px;
@@ -466,7 +480,7 @@ a.lien_Hebergements_pop {
 		border-left: 0;
 		display: block;
 		width: 40px;
-        margin-left: -7px;
+		margin-left: -7px;
 	}
 
 	.button_researsch_right {
@@ -481,71 +495,67 @@ a.lien_Hebergements_pop {
 	}
 
 	/*header*/
-    .nav_bar {
+	.nav_bar {
 		width: 100%;
-        order: 1;
-        display:flex;
-        justify-content: space-around;
-        margin-top: 20px;
-        margin-right:0px;
+		order: 1;
+		display: flex;
+		justify-content: space-around;
+		margin-top: 20px;
+		margin-right: 0px;
 	}
-    .lien_Hebergements:hover {
-        color: #0065fc;
-        border: 3px;
-        border-style: none;
-        margin: 0px;
-        padding: 5px;
-        border:unset;
-    }
-  .inscrire_order a:hover
-  {
-    border-top: unset;
-  }
-  
-    nav li {
-        
-        padding: unset;
-        margin: unset;
-        width: 50%;
-        text-align: center;
-    }
+	.lien_Hebergements:hover {
+		color: #0065fc;
+		border: 3px;
+		border-style: none;
+		margin: 0px;
+		padding: 5px;
+		border: unset;
+	}
+	.inscrire_order a:hover {
+		border-top: unset;
+	}
 
-    .activites_order
-    {
-        padding-left: 60px;
-        border-bottom: solid 3px #d9d9d9;
+	nav li {
+		padding: unset;
+		margin: unset;
+		width: 50%;
+		text-align: center;
+	}
 
-    }
-	.hebergement_order
-    {
-      padding-bottom: 10px;
-      border-bottom: solid 3px #d9d9d9;
-      
-    }
+	.activites_order {
+		padding-left: 60px;
+		border-bottom: solid 3px #d9d9d9;
+	}
+	.hebergement_order {
+		padding-bottom: 10px;
+		border-bottom: solid 3px #d9d9d9;
+	}
 	:hover.hebergement_order {
 		border-bottom: 3px solid #0065fc;
-        
 	}
-    :hover.activites_order {
+	:hover.activites_order {
 		border-bottom: 3px solid #0065fc;
 	}
 
 	.change_hypertext:hover {
 		font-size: 17px;
 		font-weight: bold;
-        border: unset;
+		border: unset;
 	}
-	.change_hypertext1:hover{
+	.change_hypertext1:hover {
 		font-size: 17px;
 		font-weight: inherit;
-        border: unset;
+		border: unset;
 	}
-    /*text section*/
-    .text_section
-    {
-        margin:unset;
-        margin-top:20px ;
-    }
+
+	header {
+		margin: unset;
+	}
+	/*text section*/
+	.text_section {
+		margin: unset;
+		margin-top: 20px;
+	}
 
 	/*display filter*/
 	.button_filter {
@@ -559,7 +569,7 @@ a.lien_Hebergements_pop {
 	.display_filtre {
 		flex-direction: column;
 	}
-	
+
 	.position_button {
 		flex-direction: row;
 		display: flex;
@@ -583,6 +593,7 @@ a.lien_Hebergements_pop {
 		display: flex;
 		flex-direction: column-reverse;
 		padding: 0px;
+		margin: unset;
 	}
 
 	/*populaire*/
@@ -625,6 +636,10 @@ a.lien_Hebergements_pop {
 		border-radius: 12px;
 	}
 
+	.big-position_activity {
+		margin: unset;
+	}
+
 	/*activité à Marseille*/
 
 	.global_position_activity {
@@ -659,67 +674,62 @@ a.lien_Hebergements_pop {
 		flex-direction: column;
 	}
 	footer {
-        flex: 1 1 100%;
+		flex: 1 1 100%;
 	}
-    
+
 	.title_footer {
-        padding-bottom: 15px;
+		padding-bottom: 15px;
 	}
-    
+
 	.footer_text {
-        margin: 20px;
+		margin: 20px;
 	}
 }
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) { 
-/*Hébergement à marseille*/
-    .position_hebergement {
-        display: flex;
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	/*Hébergement à marseille*/
+	.position_hebergement {
+		display: flex;
 		flex-direction: column-reverse;
 	}
-    .section_hebergements {
-        margin-bottom: 20px;
-        margin-top: 20px;
-    }
+	.section_hebergements {
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
 
-    /*barre de recherche*/
+	/*barre de recherche*/
 	.barre_recherche {
-        display: flex;
+		display: flex;
 		justify-content: center;
 		margin: 20px;
 	}
-    /*les plus populaires*/
-    
+	/*les plus populaires*/
+
 	.titre_populaire {
-        display: flex;
+		display: flex;
 	}
 	.changement_populaire {
-        padding-left: 20px;
+		padding-left: 20px;
 	}
-    
+
 	.section_populaire {
-        display: flex;
+		display: flex;
 		align-items: left;
 	}
 	.img_eau {
-        height: 110px;
+		height: 110px;
 	}
-/*position activity*/
-    .global_position_activity {
-        flex-direction: column;
+	/*position activity*/
+	.global_position_activity {
+		flex-direction: column;
 		display: flex;
 	}
-/* footer */
-    .footer_position {
-        display: flex;
+	/* footer */
+	.footer_position {
+		display: flex;
 		flex-direction: row;
 		flex: 100%;
 		align-items: center;
 		flex-wrap: wrap;
 	}
-
-
 }
-
-
-
