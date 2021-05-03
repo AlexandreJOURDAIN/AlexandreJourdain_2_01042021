@@ -417,6 +417,10 @@ a.lien_Hebergements_pop {
 .text_activity {
 	padding: 10px 20px;
 }
+.Text_activity_vieuxport
+{
+	padding: 22px 20px;
+}
 .container_text_image_activity {
 	box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.2);
 	border-radius: 20px;
