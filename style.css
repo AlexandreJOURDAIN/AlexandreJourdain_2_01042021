@@ -17,12 +17,12 @@ button:hover {
 
 body {
 	font-family: "Raleway", sans-serif;
-	margin:0px;
+	margin: 0px;
 }
 
 h1 {
 	font-size: 20px;
-    font-weight: bold;
+	font-weight: bold;
 	margin-top: 20px;
 }
 
@@ -36,7 +36,6 @@ header {
 	margin-left: 40px;
 	margin-right: 30px;
 }
-
 
 nav li {
 	margin: 0 10px 0 20px;
@@ -64,7 +63,6 @@ nav {
 	font-weight: bold;
 	display: flex;
 	align-items: center;
-	
 }
 
 .change_hypertext:hover {
@@ -87,13 +85,11 @@ nav {
 	text-decoration: none;
 	color: #0065fc;
 	border-top: 1px solid;
-	
 }
 
 /* -- filtre barre de recherche --*/
 
-.text_section--research
-{
+.text_section--research {
 	margin-bottom: 10px;
 }
 
@@ -284,9 +280,8 @@ a.lien_Hebergements {
 #change_color_star {
 	color: #0065fc;
 }
-#change_color_star_grey
-{
-	color:#f2f2f2;
+#change_color_star_grey {
+	color: #f2f2f2;
 }
 
 .img_container {
@@ -433,8 +428,7 @@ a.lien_Hebergements_pop {
 .text_activity {
 	padding: 10px 20px;
 }
-.text_activity_port
-{
+.text_activity_port {
 	padding: 22px 20px;
 }
 .container_text_image_activity {
@@ -509,6 +503,8 @@ a.lien_Hebergements_pop {
 	.button_researsch_left {
 		height: 40px;
 		width: 40px;
+		border-top-left-radius: 15px;
+		border-bottom-left-radius: 15px;
 	}
 	.input_researsch {
 		height: 40px;
@@ -534,12 +530,10 @@ a.lien_Hebergements_pop {
 	.inscrire_order a:hover {
 		border-top: unset;
 	}
-	.inscrire_order
-	{
+	.inscrire_order {
 		padding: 25px;
 	}
-	h1
-	{
+	h1 {
 		margin: unset;
 		padding-top: 12px;
 		padding-left: 15px;
@@ -584,27 +578,22 @@ a.lien_Hebergements_pop {
 	.text_section {
 		margin: unset;
 		margin: 20px;
-		
 	}
 	/*barre de recherche Header*/
-	.input_researsch
-	{
+	.input_researsch {
 		width: 400px;
 		height: 50px;
 	}
-	.button_researsch_left
-	{
-      height: 50px;
-	  width:100px ;
-	}
-	.buttton_researsh_loupe
-	{
+	.button_researsch_left {
 		height: 50px;
-		width:100px ;
+		width: 100px;
 	}
-	.barre_recherche
-	{
-      margin-left: 40px;
+	.buttton_researsh_loupe {
+		height: 50px;
+		width: 100px;
+	}
+	.barre_recherche {
+		margin-left: 40px;
 	}
 
 	/*display filter*/
@@ -694,7 +683,6 @@ a.lien_Hebergements_pop {
 
 	/*activité à Marseille*/
 
-
 	.global_position_activity {
 		margin-bottom: 50px;
 	}
@@ -705,7 +693,7 @@ a.lien_Hebergements_pop {
 	.container_text_image_activity {
 		margin-top: 10px;
 	}
-	
+
 	.big_image {
 		height: 100px;
 	}
@@ -718,9 +706,7 @@ a.lien_Hebergements_pop {
 	.big_image {
 		height: 100px;
 	}
-	.text_activity_port
-	{
-		
+	.text_activity_port {
 		padding: 10px 20px;
 	}
 
@@ -779,11 +765,10 @@ a.lien_Hebergements_pop {
 	.global_position_activity {
 		flex-direction: column;
 		display: flex;
-		justify-content: space-between
+		justify-content: space-between;
 	}
-	
-	.container_text_image_activity
-	{
+
+	.container_text_image_activity {
 		margin-top: 30px;
 	}
 	/* footer */
