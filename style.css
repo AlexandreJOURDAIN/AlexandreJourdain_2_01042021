@@ -148,6 +148,7 @@ nav {
 .display_filtre {
 	display: flex;
 	justify-content: left;
+	margin-top: 20px;
 }
 
 .button_filter {
@@ -603,7 +604,6 @@ a.lien_Hebergements_pop {
 	.position_filter {
 		margin-bottom: 10px;
 		margin-left: 10px;
-		font-weight:bold;
 	}
 
 	.display_filtre {
