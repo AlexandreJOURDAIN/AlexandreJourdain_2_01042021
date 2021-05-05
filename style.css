@@ -132,7 +132,6 @@ nav {
 }
 .input_researsch {
 	height: 30px;
-	padding: Opx;
 	margin: 0px;
 	border-style: none;
 	border: 1px solid #deebff;
@@ -608,6 +607,7 @@ a.lien_Hebergements_pop {
 
 	.display_filtre {
 		flex-direction: column;
+		
 	}
 
 	.position_button {
@@ -756,7 +756,6 @@ a.lien_Hebergements_pop {
 
 	.section_populaire {
 		display: flex;
-		align-items: left;
 	}
 	.img_eau {
 		height: 110px;
