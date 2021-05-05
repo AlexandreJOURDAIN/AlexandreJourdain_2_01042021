@@ -277,10 +277,10 @@ a.lien_Hebergements {
 	padding-bottom: 6px;
 }
 
-#change_color_star {
+.change_color_star {
 	color: #0065fc;
 }
-#change_color_star_grey {
+.change_color_star_grey {
 	color: #f2f2f2;
 }
 
