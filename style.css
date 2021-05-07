@@ -126,10 +126,11 @@ nav {
 	border-left: 0;
 	width: 80px;
 }
-
-.buttton_researsh_loupe {
-	display: none;
+.button_researsch_right::after{
+	content: "recherche";
 }
+
+
 .input_researsch {
 	height: 30px;
 	margin: 0px;
@@ -485,20 +486,16 @@ a.lien_Hebergements_pop {
 		margin-right: 50px;
 	}
 
-	.buttton_researsh_loupe {
-		border-radius: 11px;
-		height: 40px;
-		border-style: none;
-		background-color: #0065fc;
-		color: white;
-		border-left: 0;
-		display: block;
-		width: 40px;
-		margin-left: -7px;
+	.button_researsch_right {
+		width: 80px;
+		height: 50px;
+		padding: 10px;
+		border-radius: 10px;
+		margin-left:-7px
 	}
 
-	.button_researsch_right {
-		display: none;
+	.button_researsch_right::after{
+		content: "\f002";
 	}
 	.button_researsch_left {
 		height: 40px;
