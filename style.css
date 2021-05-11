@@ -107,7 +107,7 @@ nav {
 	font-weight: bolder;
 }
 
-.button_researsch_left {
+.button_research_left {
 	border-top-left-radius: 11px;
 	border-bottom-left-radius: 11px;
 	height: 30px;
@@ -116,7 +116,7 @@ nav {
 	pointer-events: none;
 }
 
-.button_researsch_right {
+.button_research_right {
 	border-top-right-radius: 11px;
 	border-bottom-right-radius: 11px;
 	height: 30px;
@@ -126,12 +126,11 @@ nav {
 	border-left: 0;
 	width: 80px;
 }
-.button_researsch_right::after{
+.button_research_right::after {
 	content: "recherche";
 }
 
-
-.input_researsch {
+.input_research {
 	height: 30px;
 	margin: 0px;
 	border-style: none;
@@ -253,7 +252,7 @@ a.lien_Hebergements {
 	margin-bottom: 10px;
 }
 
-.hotel_cannebiére {
+.hotel_hebergements {
 	width: 27%;
 	background-color: white;
 	text-align: left;
@@ -264,13 +263,13 @@ a.lien_Hebergements {
 	border-radius: 10px;
 }
 
-.img_cannebiére {
+.img_hebergements {
 	width: 100%;
 }
-.titre_Auberge {
+.titre_hotel {
 	margin-bottom: 6px;
 }
-.text_cannebiére {
+.text_hebergements {
 	padding: 5px;
 	margin: 5px;
 }
@@ -486,24 +485,24 @@ a.lien_Hebergements_pop {
 		margin-right: 50px;
 	}
 
-	.button_researsch_right {
+	.button_research_right {
 		width: 80px;
 		height: 50px;
 		padding: 10px;
 		border-radius: 10px;
-		margin-left:-7px
+		margin-left: -7px;
 	}
 
-	.button_researsch_right::after{
+	.button_research_right::after {
 		content: "\f002";
 	}
-	.button_researsch_left {
+	.button_research_left {
 		height: 40px;
 		width: 40px;
 		border-top-left-radius: 15px;
 		border-bottom-left-radius: 15px;
 	}
-	.input_researsch {
+	.input_research {
 		height: 40px;
 	}
 
@@ -577,15 +576,15 @@ a.lien_Hebergements_pop {
 		margin: 20px;
 	}
 	/*barre de recherche Header*/
-	.input_researsch {
+	.input_research {
 		width: 400px;
 		height: 50px;
 	}
-	.button_researsch_left {
+	.button_research_left {
 		height: 50px;
 		width: 100px;
 	}
-	.buttton_researsh_loupe {
+	.buttton_research_loupe {
 		height: 50px;
 		width: 100px;
 	}
@@ -667,9 +666,9 @@ a.lien_Hebergements_pop {
 		margin-top: 30px;
 	}
 
-	.hotel_cannebiére {
+	.hotel_hebergements {
 		width: auto;
-		margin-top: 10px;
+		margin: 12px;
 		box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.2);
 		border-radius: 12px;
 	}
@@ -725,7 +724,7 @@ a.lien_Hebergements_pop {
 	}
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
 	/*Hébergement à marseille*/
 	.position_hebergement {
 		display: flex;
@@ -741,6 +740,11 @@ a.lien_Hebergements_pop {
 		display: flex;
 		justify-content: center;
 		margin: 20px;
+	}
+     /*display_filtre*/
+	.display_filtre
+	{
+		margin-top: 20px;
 	}
 	/*les plus populaires*/
 
