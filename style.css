@@ -6,6 +6,10 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+.wrapper {
+	margin: 0 auto;
+	max-width: 1440px;
+}
 a {
 	text-decoration: none;
 }
@@ -18,6 +22,7 @@ button:hover {
 body {
 	font-family: "Raleway", sans-serif;
 	margin: 0px;
+	font-size: 1rem;
 }
 
 h1 {
@@ -162,6 +167,7 @@ nav {
 	margin-left: 10px;
 	display: flex;
 	align-items: center;
+	height: 40px;
 }
 
 .icon_filter {
@@ -172,8 +178,8 @@ nav {
 	border-radius: 30px;
 	background-color: #deebff;
 	border: 2px solid none;
-	height: 27px;
-	width: 27px;
+	height: 40px;
+	width: 40px;
 	margin-right: 10px;
 	display: flex;
 	justify-content: center;
@@ -199,7 +205,7 @@ nav {
 	align-items: center;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	font-size: 11px;
+	font-size: 13px;
 }
 .number_logements > i {
 	margin-right: 10px;
@@ -253,18 +259,18 @@ a.lien_Hebergements {
 }
 
 .hotel_hebergements {
-	width: 27%;
+	width: 30%;
 	background-color: white;
 	text-align: left;
-	font-size: 10px;
+	font-size: 15px;
 	padding: 3px;
 	margin-bottom: 10px;
-	height: 37%;
 	border-radius: 10px;
 }
 
 .img_hebergements {
 	width: 100%;
+	object-fit: cover;
 }
 .titre_hotel {
 	margin-bottom: 6px;
@@ -346,25 +352,31 @@ a.lien_Hebergements_pop {
 
 .img_soleil_du_matin {
 	height: 120px;
+	width: 100%;
+	object-fit: cover;
 }
 .img_eau {
 	height: 120px;
+	width: 100%;
+	object-fit: cover;
 }
 .img_blanc {
 	height: 240px;
+	width: 100%;
+	object-fit: cover;
 }
 .text_soleil_du_matin {
 	padding: 8px;
 	flex: 40%;
+	font-size: 11px;
 }
 
 .star_position_soleil_du_matin {
-	margin-top: 35px;
+	margin-top: 20px;
 }
 
 .titre_soleil_du_matin {
 	margin-bottom: 10px;
-	font-size: 12px;
 }
 
 .img_container_populaire {
@@ -713,6 +725,7 @@ a.lien_Hebergements_pop {
 	}
 	footer {
 		flex: 1 1 100%;
+		font-size: 20px;
 	}
 
 	.title_footer {
@@ -741,9 +754,8 @@ a.lien_Hebergements_pop {
 		justify-content: center;
 		margin: 20px;
 	}
-     /*display_filtre*/
-	.display_filtre
-	{
+	/*display_filtre*/
+	.display_filtre {
 		margin-top: 20px;
 	}
 	/*les plus populaires*/
