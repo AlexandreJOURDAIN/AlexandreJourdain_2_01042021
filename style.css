@@ -161,7 +161,7 @@ nav {
 	justify-content: space-between;
 	padding: 0;
 	border-width: 1px;
-	padding-right: 5px;
+	padding-right: 20px;
 	background-color: white;
 	border: 2px solid #f2f2f2;
 	margin-left: 10px;
@@ -351,7 +351,7 @@ a.lien_Hebergements_pop {
 }
 
 .img_soleil_du_matin {
-	height: 120px;
+	height: 100%;
 	width: 100%;
 	object-fit: cover;
 }
@@ -605,9 +605,6 @@ a.lien_Hebergements_pop {
 	}
 
 	/*display filter*/
-	.button_filter {
-		margin-right: 40px;
-	}
 
 	.position_filter {
 		margin-bottom: 10px;
@@ -646,7 +643,7 @@ a.lien_Hebergements_pop {
 
 	/*populaire*/
 	.img_soleil_du_matin {
-		height: 140px;
+		width: 120px;
 	}
 	.img_blanc {
 		height: 320px;
@@ -663,15 +660,15 @@ a.lien_Hebergements_pop {
 		padding-left: 20px;
 	}
 	.text_soleil_du_matin {
-		font-size: 12px;
+		font-size: 13px;
 	}
 	.star_position_soleil_du_matin {
 		margin: unset;
 		margin-top: 40px;
 	}
-	.img_container_populaire
-	{
+	.img_container_populaire {
 		height: 120px;
+		width: 100%;
 	}
 
 	/*hebergements Marseille*/
@@ -775,9 +772,7 @@ a.lien_Hebergements_pop {
 	.section_populaire {
 		display: flex;
 	}
-	.img_eau {
-		height: 110px;
-	}
+
 	/*position activity*/
 	.global_position_activity {
 		flex-direction: column;
