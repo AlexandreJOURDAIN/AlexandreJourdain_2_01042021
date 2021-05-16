@@ -642,9 +642,7 @@ a.lien_Hebergements_pop {
 	}
 
 	/*populaire*/
-	.img_soleil_du_matin {
-		width: 120px;
-	}
+	
 	.img_blanc {
 		height: 320px;
 	}
@@ -660,14 +658,16 @@ a.lien_Hebergements_pop {
 		padding-left: 20px;
 	}
 	.text_soleil_du_matin {
-		font-size: 13px;
+		font-size: 15px;
+		margin-top: 5px;
+		margin-right: 25px;
 	}
 	.star_position_soleil_du_matin {
 		margin: unset;
 		margin-top: 40px;
 	}
 	.img_container_populaire {
-		height: 120px;
+		height: 140px;
 		width: 100%;
 	}
 
@@ -759,6 +759,10 @@ a.lien_Hebergements_pop {
 	/*display_filtre*/
 	.display_filtre {
 		margin-top: 20px;
+	}
+	.button_filter
+	{
+		padding: unset;
 	}
 	/*les plus populaires*/
 
