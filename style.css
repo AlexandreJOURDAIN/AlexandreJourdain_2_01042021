@@ -291,7 +291,7 @@ a.lien_Hebergements {
 }
 
 .img_container {
-	height: 100px;
+	height: 120px;
 	overflow: hidden;
 	align-items: center;
 	display: flex;
@@ -337,7 +337,7 @@ a.lien_Hebergements_pop {
 }
 
 .hotel_populaires {
-	width: 75%;
+	width: 82%;
 	height: 33%;
 	background-color: white;
 	text-align: left;
@@ -372,7 +372,7 @@ a.lien_Hebergements_pop {
 }
 
 .star_position_soleil_du_matin {
-	margin-top: 20px;
+	margin-top: 45px;
 }
 
 .titre_soleil_du_matin {
@@ -380,7 +380,7 @@ a.lien_Hebergements_pop {
 }
 
 .img_container_populaire {
-	height: 100px;
+	height: 120px;
 	overflow: hidden;
 	align-items: center;
 	display: flex;
