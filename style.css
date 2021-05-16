@@ -341,8 +341,8 @@ a.lien_Hebergements_pop {
 	height: 33%;
 	background-color: white;
 	text-align: left;
-	font-size: 8px;
-	border-radius: 8px;
+	font-size: 20px;
+	border-radius: 20px;
 	margin: 15px;
 	margin-left: 33px;
 	display: flex;
@@ -384,10 +384,10 @@ a.lien_Hebergements_pop {
 	overflow: hidden;
 	align-items: center;
 	display: flex;
-	border-top-left-radius: 8px;
-	border-bottom-left-radius: 8px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
 	flex: 30%;
-	margin: 5px;
+	margin: 2px;
 }
 
 /*--Position Activité*/
