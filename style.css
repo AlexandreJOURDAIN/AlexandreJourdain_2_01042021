@@ -667,8 +667,13 @@ a.lien_Hebergements_pop {
 	}
 	.star_position_soleil_du_matin {
 		margin: unset;
-		margin-top: 25px;
+		margin-top: 40px;
 	}
+	.img_container_populaire
+	{
+		height: 120px;
+	}
+
 	/*hebergements Marseille*/
 
 	.section_hebergements {
